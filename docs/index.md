@@ -1,5 +1,8 @@
-# Peter Luro personal Microsite
+# Peter Luro Personal Microsite
 
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+<img src="img/profile.png" alt="image" width="500"/>
 
 
 ## Commands
