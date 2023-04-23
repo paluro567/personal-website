@@ -1,0 +1,34 @@
+site_name: Dan McCreary Personal Microsite
+nav:
+  - Home: index.md
+  - Videos: videos.md
+  - Graph: graph.md
+  - NoSQL & ATAM: nosql.md
+  - AI Hardware: ai-hardware.md
+  - STEM: stem.md
+  - Books: books.md
+  - VLSI Hardware: hardware.md
+  - Quotes: quotes.md
+  - Contact: contact.md
+repo_name: 'Go to GitHub'
+repo_url: 'https://github.com/paluro567/personal-website'
+# Standard ATC parameters from here down
+# Replace all the markup after the repo_url line with this file
+# This file was copied from 
+edit_uri: 'blob/master/docs'
+copyright: 'Copyright &copy; 2020 Optum'
+theme:
+  name: material
+  feature:
+    tabs: false
+markdown_extensions:
+  - admonition
+  - pymdownx.details  
+  - footnotes
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
