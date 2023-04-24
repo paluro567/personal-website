@@ -294,13 +294,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#trading-app" class="md-nav__link">
-    Trading App
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -382,13 +375,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#trading-app" class="md-nav__link">
-    Trading App
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -411,13 +397,18 @@
 
 <h2 id="optum"><u>Optum</u></h2>
 <h3 id="scheduled-docker-vulnerability-alerting">Scheduled Docker Vulnerability Alerting</h3>
+<ul>
+<li>Configured a Jenkins pipeline to build and test all of the organization’s project Dockerfiles for vulnerabilities on a daily scheduled check. Dockerfiles built through a configuration json, submitted through a second Jenkins pipeline, then the images pushed to Azure ACR to be scanned by theure Defender. Vulnerability scores are then accessed Azure GraphQuery and ownrer's of Dockerfiles with high vulnerability scores are notified via email. The email also contains remediation guidelines on how to resolve the vulnerabilities found.</li>
+</ul>
 <h3 id="internships">Internships</h3>
 <ul>
 <li>Kibana visualization dashboards for Medical claim analytics on UHG payments.</li>
-<li>First place winner of the Boston Global Hackathon and placed second nationally.</li>
+<li>First place winner of the Boston Global Hackathon and placed second nationally. Developed a mobaile application which would incentivize youth to follow healthy daily routines.</li>
 </ul>
 <h2 id="additional-projects"><u>Additional Projects</u></h2>
-<h2 id="trading-app">Trading App</h2>
+<ul>
+<li>Python Trading App - configured daily alerts identifying high probability setups in stock price fluctuations from morning recommendations that are pulled from various sources using Python GET requests. Real time stock price data is gathered by yfinance Python library and sms notifications are sent through Twilio texting API identifying potential breakouts.</li>
+</ul>
 
               
             </article>
