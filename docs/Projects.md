@@ -18,6 +18,4 @@
 
 # <center><b><u>Additional work</u></b></center>
 
-- Stock Trading App - 
-
-
+- Stock Trading App - Created a Python script, running on a crontab schedule for every morning, which would pull stock recommendations in from various sources using the Python Requests library and HTTP GET requests. Using the Python Yfinance library to pull realtime stock data, I calculated moving averages and other metrics to determine high probability breakouts. Set up texting notifications using Twilio texting API. I also configured entirely automated paper trading using the Alpaca broker Python API.
