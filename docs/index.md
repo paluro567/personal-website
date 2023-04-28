@@ -11,5 +11,9 @@ Outside of work, I enjoy scripting useful functionality for my stock alerting Py
 
 If you're interested in learning more about my experience and skills, please don't hesitate to get in touch! I'd love to elaborate on how I can help your organization achieve its goals through software engineering!
 
+### Education
+
+Bachelors of Science in Computer Science - Worcester Polytechnic Institute (WPI) - GPA: 3.65/4.0
+
 
 
