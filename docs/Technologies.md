@@ -23,4 +23,6 @@
 - Kubernetes
 - Github
 - Docker
+- Flask
+- Express
 
