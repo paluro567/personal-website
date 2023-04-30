@@ -1,28 +1,37 @@
-
 ## Languages
+| Languages | Experience (years) |
+| ------- | --------------------- |
+| Python | 5 |
+| SQL | 4 |
+| Java | 3 |
+| Javascript | 3 |
+| HTML| 3 |
+| CSS | 3 |
+| Linux Bash | 3 |
+| Groovy (Jenkins) | 3 |
+| C | 3 | 
+| C++ | 2 |
+| React | 2 | 
 
-- Python
-- SQL
-- Java
-- Javascript
-- React
-- CSS
-- HTML
-- Linux Bash
-- Groovy (Jenkins)
-- C
-- C++
 
 ## Cloud
-- Azure
-- Azureml
+| Cloud | Experience (years) |
+| ----- | -------------------|
+| Azure | 3 |
+| Azureml | 3 |
+| Terraform | 1 |
+
 
 ## Software
-- Microsoft Office
-- Postman
-- Kubernetes
-- Github
-- Docker
-- Flask
-- Express
+| Software | Experience (years) |
+| -------- | -------------------|
+| Microsoft Office | 5 |
+| Github | 5 |
+| Postman | 3 |
+| Kibana | 3 |
+| Draw.io | 3 |
+| Kubernetes | 3 |
+| Docker | 3 |
+| Flask | 3 |
+| Express | 3 |
 
