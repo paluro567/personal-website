@@ -20,6 +20,7 @@
 | Azure | 3 |
 | Azureml | 3 |
 | Terraform | 1 |
+| Databricks | 1 |
 
 
 ## Software
@@ -34,4 +35,5 @@
 | Docker | 3 |
 | Flask | 3 |
 | Express | 3 |
+| Apache Spark | 1 |
 
