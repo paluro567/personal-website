@@ -10,3 +10,7 @@ repo_url: 'https://github.com/paluro567/personal-website'
 
 theme:
   name: material
+
+extra:
+  emblem: /favicon.ico
+

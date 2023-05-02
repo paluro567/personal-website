@@ -13,7 +13,7 @@ If you're interested in learning more about my experience and skills, please don
 
 ### Education
 
-Bachelors of Science in Computer Science - Worcester Polytechnic Institute (WPI) - GPA: 3.65/4.0
+Bachelor of Science in Computer Science - Worcester Polytechnic Institute (WPI) - GPA: 3.65/4.0
 
 
 
