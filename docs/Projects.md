@@ -1,5 +1,5 @@
 # <center><b><u>Optum</u></b></center>
-<b>Software Engineer (full-time)</b></br>
+## <b>Software Engineer (full-time)</b></br>
 
 - <u>Docker Schedule Check Jenkins Pipeline </u>- Developed a Jenkins pipeline which runs on a daily schedule to build and test all of the organization's project Dockerfiles, submitted by another Jenkins pipeline with all specifications on how to build each Dockerfile. The images pushed to an Azure ACR for the Defender to scan for vulnerabilities. The resulting vulnerability scores are accessed through a graphQuery API call and all Dockerfile owners, with severe vulnerabilities, are emailed an alert with remediation guidelines.
 </br>
@@ -9,9 +9,9 @@
 - <u> Microsite Logging & Kibana Dashboard</u> - Conifgured Elastic Search logging on all of the organization's microsites with OAuth user identifictation to track all user navigation paths. Created a Kibana dashboard with visuals, for management to see where resources were problematic and should be addressed.
 
 
-<b>Software Engineer (Intern)</b></br>
+## <b>Software Engineer (Intern)</b></br>
 
-- <u> Kibana Microsite Analytical Dashboard</u> - Created Kibana dashboards configured with statistical visuals on UHG's spending for management to reference. 
+- <u> Kibana Microsite Analytical Dashboard</u> - Queried UHG claims data using Spark SQL in Azure Databricks. Configured a connection with Elasticsearch-Hadoop connector to index the data and create Kibana dashboards configured with statistical visuals on UHG's spending for management to reference to identify wasteful spending by the company
 - <u> Boston Global Hackathon Winner</u> - Won first place at the Boston location and won second nationally. Developed a mobile application which would incentivize youth to follow healthy daily routines.
 
 
