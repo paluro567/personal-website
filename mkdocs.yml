@@ -2,7 +2,7 @@ site_name: Peter Luro Personal Microsite
 nav:
   - Home: index.md
   - Resume: ./img/Resume-2023.pdf
-  - Contact: Contact.md
+  - Contact: contact.md
   - Projects: Projects.md
   - Technologies: Technologies.md
 repo_name: 'Go to GitHub'
