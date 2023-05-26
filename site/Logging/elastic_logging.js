@@ -1,7 +1,7 @@
 const { Client } = require('@elastic/elasticsearch');
 
 // Instantiate Elasticsearch client
-const client = new Client({ node: 'http://localhost:9200' });
+const client = new Client({ node: 'https://paluro567.github.io/personal-website/' });
 
 // Define the index where you want to send logs
 const indexName = 'personal_website_logs';
