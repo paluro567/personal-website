@@ -7,12 +7,12 @@ const client = new Client({ node: 'http://localhost:9200' });
 const indexName = 'personal_website_logs';
 
 // Define the function to send logs
-async function sendLog(level, message) {
+async function sendLog(msid, organization) {
   try {
     // Prepare the log document
     const log = {
-      level,
-      message,
+      msid,
+      orgaanization,
       timestamp: new Date()
     };
 
@@ -30,8 +30,13 @@ async function sendLog(level, message) {
 
 
 // access user ID using OIDC client
-msid="Peter"
+//fetch Code URL
+// window.location.href (access code from the produced url)
+// Post request (using OAuth code) to Authorization endpoint => identity JWT token
+// Decode JWT token, using jsonwebtoken library, to access user identity JSON (including organization) as json_object
+msid=json_object['msid']
+organization=json_object['organization']
 
 // Example usage
-sendLog('msid', msid);
+sendLog( msid, organization);
 
