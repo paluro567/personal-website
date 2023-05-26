@@ -10,7 +10,7 @@ repo_url: 'https://github.com/paluro567/personal-website'
 
 theme:
   name: material
-  # extra_javascript:
-  #   - site/Logging/elastic_logging.js
+# extra_javascript:
+#   - site/Logging/elastic_logging.js
 
 
