@@ -16,6 +16,8 @@ I Implemented Elastic Search logging across all of the organization's microsites
 
 ## <b>Software Engineer (Intern)</b></br>
 
+- <u> Fenway Health React App Scheduler</u> </br>
+Scrum master and product owner on an intern team of 5 software engineers. Developed a React app appointment scheduler for Fenway Health to schedule appointments for their patients.
 - <u> Kibana Microsite Analytical Dashboard</u> </br>
 I Utilized Spark SQL in Azure Databricks to query UHG claims data, and indexed it using Elasticsearch-Hadoop connector to create Kibana dashboards. The dashboards contained statistical visuals that allowed management to identify wasteful spending by the company.
 - <u> Boston Global Hackathon Winner</u> </br>
