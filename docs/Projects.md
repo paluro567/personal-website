@@ -1,4 +1,4 @@
-# <center><b><u>Optum</u></b></center>
+# <center><b><u>Optum</u></b> (2020-2023)</center>
 ## <b>Software Engineer (full-time)</b></br>
 
 - <u>Docker Schedule Check Jenkins Pipeline </u> </br>
@@ -22,6 +22,13 @@ Scrum master and product owner on an intern team of 5 software engineers. Develo
 I Utilized Spark SQL in Azure Databricks to query UHG claims data, and indexed it using Elasticsearch-Hadoop connector to create Kibana dashboards. The dashboards contained statistical visuals that allowed management to identify wasteful spending by the company.
 - <u> Boston Global Hackathon Winner</u> </br>
 I won first place at the Boston location and won second nationally. Developed a mobile application which would incentivize youth to follow healthy daily routines.
+
+
+# <center><b><u>Talcott Resolution Software Engineer</u></b> (2023 - present)</center>
+
+
+Project work will include: ETL, Python, & SQL
+
 
 
 # <center><b><u>Additional work</u></b></center>
