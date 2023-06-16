@@ -1,3 +1,9 @@
+# <center><b><u>Talcott Resolution Software Engineer</u></b> (2023 - present)</center>
+
+
+Project work will include: ETL, Python, & SQL
+
+
 # <center><b><u>Optum</u></b> (2020-2023)</center>
 ## <b>Software Engineer (full-time)</b></br>
 
@@ -23,11 +29,6 @@ I Utilized Spark SQL in Azure Databricks to query UHG claims data, and indexed i
 - <u> Boston Global Hackathon Winner</u> </br>
 I won first place at the Boston location and won second nationally. Developed a mobile application which would incentivize youth to follow healthy daily routines.
 
-
-# <center><b><u>Talcott Resolution Software Engineer</u></b> (2023 - present)</center>
-
-
-Project work will include: ETL, Python, & SQL
 
 
 
