@@ -1,10 +1,10 @@
-- # <b><u>Talcott Resolution Software Engineer</u></b> (2023 - present)
+# <b><u>Talcott Resolution Software Engineer</u></b> (2023 - present)
+- <u>Scheduled Stock Data File Transfers </u> </br>
+Automated stock data file transfers within the business using Autosys and Azure datalake process configurations.
 
 
-Project work will include: ETL, Python, & SQL in and Azure cloud ecosystem.
 
-
-- # <b><u>Optum</u></b> (2017-2023)
+# <b><u>Optum</u></b> (2017-2023)
 
 <b>Software Engineer (full-time)</b></br>
 
@@ -32,7 +32,7 @@ Won first place at the Boston location and won second nationally. Developed a mo
 
 
 
-- # <b><u>Additional work</u></b>
+# <b><u>Additional work</u></b>
 
 - <u>Personal - Stock Trading App</u> </br>
 Designed and implemented a Python script that runs on a daily basis, collecting stock recommendations from multiple sources through HTTP GET requests using the Python Requests library. The script leverages the Python Yfinance library to access real-time stock data, calculates key indicators such as moving averages and identifies potential breakout opportunities. The script integrates with the Twilio texting API to send automated notifications to subscribed users. Additionally, I set up and automated paper trading using the Alpaca broker Python API.
