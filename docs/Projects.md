@@ -1,12 +1,13 @@
-# <b><u>Talcott Resolution Software Engineer</u></b> (2023 - present)
+## <b><u>Talcott Resolution Software Engineer</u></b> \(2023 - present)
+
 - <u>Scheduled Stock Data File Transfers </u> </br>
 Automated stock data file transfers within the business using Autosys and Azure datalake process configurations.
 
 
 
-# <b><u>Optum</u></b> (2017-2023)
+## <b><center><u>Optum</u></b> (2017-2023)</center>
 
-<b>Software Engineer (full-time)</b></br>
+<center><b>Software Engineer (full-time)</b></center></br>
 
 - <u>Docker Schedule Check Jenkins Pipeline </u> </br>
 Developed a Jenkins pipeline for an organization that runs daily to build and test all submitted Dockerfiles from another Jenkins pipeline. Each Dockerfile had specifications on how to build them, and images were pushed to an Azure ACR for scanning by the Defender to detect vulnerabilities. I used a graphQuery API call to access the resulting vulnerability scores, and Dockerfile owners were alerted via email with remediation guidelines if severe vulnerabilities were found.
@@ -20,7 +21,7 @@ Wrote Python scripts to build data pipelines that trained and tested speech and 
 - <u> Microsite Logging & Kibana Dashboard</u> </br>
 Implemented Elastic Search logging across all of the organization's microsites, enabling OAuth user identification to track user navigation paths. Configured a Kibana dashboard with interactive visualizations that allow management to quickly identify problematic resources and prioritize improvements.
 
- <b>Software Engineer (Intern)</b> </br>
+ <center><b>Software Engineer (Intern)</b></center> </br>
 
 - <u> Fenway Health - React App Scheduler</u> </br>
 Scrum master and product owner on an intern team of 5 software engineers. Developed a React app appointment scheduler for Fenway Health to schedule appointments for their patients.
@@ -32,7 +33,7 @@ Won first place at the Boston location and won second nationally. Developed a mo
 
 
 
-# <b><u>Additional work</u></b>
+## <b><center><u>Additional work</u></center></b>
 
 - <u>Personal - Stock Trading App</u> </br>
 Designed and implemented a Python script that runs on a daily basis, collecting stock recommendations from multiple sources through HTTP GET requests using the Python Requests library. The script leverages the Python Yfinance library to access real-time stock data, calculates key indicators such as moving averages and identifies potential breakout opportunities. The script integrates with the Twilio texting API to send automated notifications to subscribed users. Additionally, I set up and automated paper trading using the Alpaca broker Python API.
