@@ -3,10 +3,9 @@
 - <u>Scheduled Stock Data File Transfers </u> </br>
 Automated stock data file transfers within the business using Autosys and Azure datalake process configurations.
 - <u>Full Stack 1065 tax Form Submission</u> </br>
-Structured a full stack application for the organization to submit tax forms to a database and incorporated logic for versioning submission and coordinate with existing records in the DB. 
+Structured a full-stack application for the organization to submit 1065 tax forms to a database and incorporated logic for versioning submissions while coordinating with existing records in the database.
 - <u>Structured Company Site with Embedded Power BI Reports</u> </br>
-Implemented a company analytics website to include Embedded Power BI reports to help management evaluate operations within the company.
-
+Improved accessibility for managment to get key insights from their data.
 
 ## <b><center><u>Optum</u></b> (2017-2023)</center>
 
