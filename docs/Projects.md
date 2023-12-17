@@ -5,7 +5,7 @@ Automated stock data file transfers within the business using Autosys and Azure 
 - <u>Full Stack 1065 tax Form Submission</u> </br>
 Structured a full-stack application for the organization to submit 1065 tax forms to a database and incorporated logic for versioning submissions while coordinating with existing records in the database.
 - <u>Structured Company Site with Embedded Power BI Reports</u> </br>
-Improved accessibility for managment to get key insights from their data.
+Improved accessibility for managment to grab key insights from their data.
 
 ## <b><center><u>Optum</u></b> (2017-2023)</center>
 
