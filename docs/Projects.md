@@ -1,4 +1,6 @@
-## <b><u>Talcott Resolution Software Engineer</u></b> \(2023 - present)
+## <b><center><u>Talcott Resolution</u></b> \(2023 - present)</center>
+<center><b>Software Engineer (full-time)</b></center></br>
+
 
 - <u>Scheduled Stock Data File Transfers </u> </br>
 Automated stock data file transfers within the business using Autosys and Azure datalake process configurations.
@@ -23,7 +25,9 @@ Wrote Python scripts to build data pipelines that trained and tested speech and 
 - <u> Microsite Logging & Kibana Dashboard</u> </br>
 Implemented Elastic Search logging across all of the organization's microsites, enabling OAuth user identification to track user navigation paths. Configured a Kibana dashboard with interactive visualizations that allow management to quickly identify problematic resources and prioritize improvements.
 
- <center><b>Software Engineer (Intern)</b></center> </br>
+
+
+<center><b>Software Engineer (Intern)</b></center></br>
 
 - <u> Fenway Health - React App Scheduler</u> </br>
 Scrum master and product owner on an intern team of 5 software engineers. Developed a React app appointment scheduler for Fenway Health to schedule appointments for their patients.
