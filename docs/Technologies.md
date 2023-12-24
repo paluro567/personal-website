@@ -19,6 +19,7 @@
 | ----- | -------------------|
 | Azure | 3 |
 | Azureml | 3 |
+| Azure DevOps | 2 |
 | Terraform | 1 |
 | Databricks | 1 |
 
@@ -36,4 +37,6 @@
 | Flask | 3 |
 | Express | 3 |
 | Apache Spark | 2 |
+| Autosys | 1 |
+| Power BI | 1 |
 
