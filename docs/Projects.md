@@ -2,12 +2,13 @@
 <center><b>Software Engineer (full-time)</b></center></br>
 
 
-- <u>Scheduled Stock Data File Transfers </u> </br>
-Automated stock data file transfers within the business using Autosys and Azure datalake process configurations.
+- <u>Market Data Automation & Processing </u> </br>
+Configured Autosys automation to process market data files received in scheduled email, file drops, or other delivery methods.
+These processses have all been generalized and implemented as their own runtype code in the organization Python Datalake project for reusable behavior.
 - <u>Full-Stack 1065 Tax Form</u> </br>
-Structured a full-stack application for the organization to submit 1065 tax forms to a database and incorporated logic for versioning submissions while coordinating with existing records in the database.
+Structured a full-stack application for the organization to submit 1065 tax forms to a database and incorporated logic allowing the versioning of submissions while coordinating with existing records in the database.
 - <u>Structured Company Site with Embedded Power BI Reports</u> </br>
-Improved accessibility for managment to grab key insights from their data.
+Improved accessibility for management to upload new files with company data and visualize through embedded Power BI reports.
 
 ## <b><center><u>Optum</u></b> (2017-2023)</center>
 
