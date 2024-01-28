@@ -42,7 +42,7 @@ Won first place at the Boston location and won second nationally. Developed a mo
 ## <b><center><u>Additional work</u></center></b>
 
 - <u>Personal - Stock Trading App</u> </br>
-Designed and implemented a Python script that runs on a daily basis, collecting stock recommendations from multiple sources through HTTP GET requests using the Python Requests library. The script leverages the Python Yfinance library to access real-time stock data, calculates key indicators such as moving averages and identifies potential breakout opportunities. The script integrates with the Twilio texting API to send automated notifications to subscribed users. Additionally, I set up and automated paper trading using the Alpaca broker Python API.
+Implemented a several scripts that run in GCP cloud on a daily crontab schedule and utilizes the Python Requests library with HTTP GET requests and authorization headers to pull stock recommendations from various sources each day. Then using the Python Alpha Vantage API, I am able to pull real-time stock data and place automated buy and sell orders to complete an entirely automated trading system that has been profitable so far!
 - <u>Sitetracker - WPI, React Mobile App</u> </br>
 Created a mobile application for construction site project managers to prioritize tasks over project sites that they manage. Configured Express routing and configuration with project profiles in a NoSQL database.
 Link to [final report](https://web.cs.wpi.edu/~claypool/mqp/sv/2019/site/).
