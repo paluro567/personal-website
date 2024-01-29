@@ -3,7 +3,7 @@
 
 
 - <u> Datalake Market Data Automation & Processing </u> </br>
-Implemented a configurable Autosys automation framework capable of handling diverse data sources such as market data files delivered via scheduled emails, file drops, or other means. Each data process is encapsulated into its own modular and reusable component within the organization's Python Datalake project.
+Implemented a configurable Autosys automation framework capable of processing diverse data sources such as market data files delivered via scheduled emails, file drops, or other means. Each data process is encapsulated into its own modular and reusable component within the organization's Python Datalake project.
 - <u>Full-Stack 1065 Tax Form</u> </br>
 Structured a full-stack React application for the organization to submit 1065 tax forms to a database and incorporated logic to enable  versioning of submissions.
 - <u>Revamaped Company Site with Embedded Power BI Reports</u> </br>
