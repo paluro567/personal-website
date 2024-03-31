@@ -6,6 +6,8 @@
 Implemented a configurable Autosys automation framework capable of processing diverse data sources such as market data files delivered via scheduled emails, file drops, or other means. Each data process is encapsulated into its own modular and reusable component within the organization's Python Datalake project.
 - <u> Oracle Database Design & Implementation </u> </br>
 Implemented various views, tables, & stored procedures to organize data utilized by Power BI reports and other company resources.
+- <u> Power BI Reports </u> </br>
+Created several Power BI dashboards that visualize market data and company resources to facilitate key business decisions.
 - <u>Full-Stack 1065 Tax Form</u> </br>
 Structured a full-stack React application for the organization to submit 1065 tax forms to a database and incorporated logic to enable  versioning of submissions.
 - <u>Revamaped Company Site with Embedded Power BI Reports</u> </br>
