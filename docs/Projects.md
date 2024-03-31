@@ -16,7 +16,7 @@ Improved accessibility for management to upload new files with company data and 
 <center><b>Software Engineer (full-time)</b></center></br>
 
 - <u>Docker Schedule Check Jenkins Pipeline </u> </br>
-Developed a Jenkins pipeline for an organization that runs daily to build and test all submitted Dockerfiles from another Jenkins pipeline. Each Dockerfile had specifications on how to build them, and images were pushed to an Azure ACR for scanning by the Defender to detect vulnerabilities. I used a graphQuery API call to access the resulting vulnerability scores, and Dockerfile owners were alerted via email with remediation guidelines if severe vulnerabilities were found.
+Developed a Jenkins pipeline that runs daily to build and test all submitted Dockerfiles from another Jenkins pipeline. Each project Dockerfile had specifications on how to build them, and images were pushed to an Azure ACR for scanning by the Defender to detect vulnerabilities. Utilizing a graphQuery API call to access the resulting vulnerability scores, and Dockerfile owners were alerted via email with remediation guidelines if severe vulnerabilities were found.
 </br>
 - <u>API Kubernetes Deployment</u> </br>
 Developed a RESTful API using Connexion, a Python framework similar to Flask, which runs in a Docker container on a Gunicorn server. The container is deployed to a Kubernetes cluster using a Jenkins pipeline, with the ability to scale replicas as needed. I verified the functionality of the API endpoints using kubectl CLI with port forwarding and Postman.
