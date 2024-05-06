@@ -1,7 +1,7 @@
 site_name: Peter Luro Personal Microsite
 nav:
   - Home: index.md
-  - Resume: ./img/Resume-2023.pdf
+  - Resume: ./img/Resume-2024.pdf
   - Contact: contact.md
   - Projects: Projects.md
   - Technologies: Technologies.md
