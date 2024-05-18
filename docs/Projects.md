@@ -7,7 +7,7 @@ Implemented a configurable Autosys automation framework capable of processing di
 - <u> Oracle Database Design & Implementation </u> </br>
 Implemented various views, tables, & stored procedures to organize data utilized by Power BI reports and other company resources.
 - <u> Power BI Reports </u> </br>
-Created several Power BI dashboards that visualize market data and company resources to facilitate key business decisions.
+Created several Power BI dashboards that visualize investments for management to reconcile numbers and gather key insight. Published these reports to a Power BI workspace and embeded reports in React company website via Power BI Client.
 - <u>Full-Stack 1065 Tax Form</u> </br>
 Structured a full-stack React application for the organization to submit 1065 tax forms to a database and incorporated logic to enable  versioning of submissions.
 - <u>Revamaped Company Site with Embedded Power BI Reports</u> </br>
