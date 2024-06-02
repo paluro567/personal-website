@@ -14,3 +14,8 @@ theme:
 #   - site/Logging/elastic_logging.js
 
 
+extra:
+  meta:
+    title: "Peter Luro - personal portfolio"
+    description: "Description of your MkDocs site - Peter Luro."
+    keywords: "Peter Luro"
