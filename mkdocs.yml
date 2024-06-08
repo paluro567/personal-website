@@ -1,4 +1,4 @@
-site_name: Peter Luro Personal Microsite
+site_name: Peter Luro
 nav:
   - Home: index.md
   - Resume: ./img/Resume-2024.pdf
