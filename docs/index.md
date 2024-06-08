@@ -3,7 +3,7 @@
 ## About  Me
 <img src="img/profile.png" alt="image" width="400" style="float: right;">
 
-My name is Peter Luro, and I am a software engineer with a passion for building sophisticated scalable solutions that address complex technological tasks. I have over 3 years of professional experience working in the software industry and have had the opportunity to work on some exciting and impactful technologies.
+My name is Peter Luro, and I am a software engineer with a passion for building sophisticated scalable solutions that address complex technological tasks. I have over 4 years of professional experience working in the software industry and have had the opportunity to work on some exciting and impactful technologies.
 
 When it comes to software development, I strive to be a team player. I enjoy working closely with my colleagues and stakeholders to understand their business needs and goals. This has always resulted in creative solutions that meet their requirements while also adhering to best practices and industry standards.
 
