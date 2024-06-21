@@ -5,7 +5,6 @@ nav:
   - Contact: contact.md
   - Projects: Projects.md
   - Technologies: Technologies.md
-  - Sitemap: sitemap.xml  # Add the sitemap file to your navigation
 
 theme:
   name: material
@@ -15,3 +14,7 @@ extra:
     title: "Peter Luro - personal portfolio"
     description: "Description of your MkDocs site - Peter Luro."
     keywords: "Peter Luro"
+  extra_css:
+    - css/custom.css
+  extra_javascript:
+    - js/custom.js

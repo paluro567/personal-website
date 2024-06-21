@@ -1,0 +1,4 @@
+/* css/custom.css */
+.md-nav__item a[href="sitemap.xml"] {
+    display: none !important;
+}
