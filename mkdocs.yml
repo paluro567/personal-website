@@ -14,7 +14,7 @@ extra:
     title: "Peter Luro - personal portfolio"
     description: "Description of your MkDocs site - Peter Luro."
     keywords: "Peter Luro"
-  # extra_css:
-  #   - css/custom.css
-  # extra_javascript:
-  #   - js/custom.js
+  extra_css:
+    - css/custom.css
+  extra_javascript:
+    - js/custom.js
