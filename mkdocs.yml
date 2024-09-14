@@ -1,7 +1,7 @@
 site_name: Peter Luro
 nav:
   - Home: index.md
-  - Resume: ./img/Resume-2024.pdf
+  - Resume: ./img/Luro-Resume-2024.pdf
   - Contact: contact.md
   - Projects: Projects.md
   - Technologies: Technologies.md
@@ -14,7 +14,7 @@ extra:
     title: "Peter Luro - personal portfolio"
     description: "Description of your MkDocs site - Peter Luro."
     keywords: "Peter Luro"
-  extra_css:
-    - css/custom.css
-  extra_javascript:
-    - js/custom.js
+  # extra_css:
+  #   - css/custom.css
+  # extra_javascript:
+  #   - js/custom.js
