@@ -8,7 +8,7 @@ nav:
 
 theme:
   name: material
-  logo: 'img/personal-logo.png'  # path to your logo within the 'docs' folder
+  logo: './img/personal-logo.png'  # path to your logo within the 'docs' folder
 
 
 extra:
@@ -16,10 +16,10 @@ extra:
     title: "Peter Luro - personal portfolio"
     description: "Description of your MkDocs site - Peter Luro."
     keywords: "Peter Luro"
-  extra_css:
-    - css/custom.css
+  # extra_css:
+  #   - css/custom.css
   extra_javascript:
     - js/custom.js
-extra_css:
-  - css/styles.css
+  extra_css:
+    - css/styles.css
 

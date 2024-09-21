@@ -1,3 +1,14 @@
-.md-header-nav__title {
-    display: none;  /* Hides the site name */
+/* Hide the "Home" link in the regular navigation */
+nav.md-nav__list > li:first-child {
+    display: none;
+}
+
+/* Hide the "Home" link when scrolling in the sticky header */
+.md-header-nav__title a[href="index.md"] {
+    display: none !important;
+}
+
+/* Ensure that the "Home" link doesn't show up near the logo when scrolling */
+.md-header__inner .md-header__title a[href="index.md"] {
+    display: none !important;
 }
