@@ -1,4 +1,4 @@
-site_name: Peter Luro
+site_name: ''
 nav:
   - Home: index.md
   - Resume: ./img/Luro-Resume-2024.pdf
@@ -8,6 +8,8 @@ nav:
 
 theme:
   name: material
+  logo: 'img/personal-logo.png'  # path to your logo within the 'docs' folder
+
 
 extra:
   meta:
@@ -18,3 +20,6 @@ extra:
     - css/custom.css
   extra_javascript:
     - js/custom.js
+extra_css:
+  - css/styles.css
+

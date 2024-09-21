@@ -1,4 +1,3 @@
-# Peter Luro
 
 ## About  Me
 <img src="img/profile.png" alt="image" width="400" style="float: right;">
