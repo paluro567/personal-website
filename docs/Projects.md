@@ -2,7 +2,7 @@
 <center><b>Software Engineer (full-time)</b></center></br>
 
 - <u> Trade/Settlement Log UI </u> </br>
-Led initiative to create a React UI to display asset positions that have changed from the prior market date and do not have a corresponding trade/settlement log in the associated Hedging Oracle database. The logic includes dynamic field selection for transaction type, inserting into the trade log tables for each position, CSV download,  and the ability to restart the corresponding AutoSys job that has failed due to missing trades data.
+Led initiative to create a React UI  displaying asset positions that have changed from the prior market date, which do not have a corresponding trade/settlement log in the associated Hedging Oracle database. The logic includes dynamic field selection for transaction type, inserting into the trade log tables for each position, CSV download,  and the ability to restart the corresponding AutoSys job that has failed due to missing trades data.
 - <u> Datalake Market Data Automation & Processing </u> </br>
 Implemented a configurable Autosys automation framework capable of processing diverse data sources such as market data files delivered via scheduled emails, file drops, or other means. Each data process is encapsulated into its own modular and reusable component within the organization's Python Datalake project.
 - <u> Oracle Database Design & Implementation </u> </br>
