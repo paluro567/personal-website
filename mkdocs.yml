@@ -1,15 +1,14 @@
-site_name: ''
+site_name: ""
 nav:
   - Home: index.md
-  - Resume: ./img/Luro-Resume-2024.pdf
+  - Resume: ./img/Luro-Resume-2025.pdf
   - Contact: contact.md
   - Projects: Projects.md
   - Technologies: Technologies.md
 
 theme:
   name: material
-  logo: './img/personal-logo.png'  # path to your logo within the 'docs' folder
-
+  logo: "./img/personal-logo.png" # path to your logo within the 'docs' folder
 
 extra:
   meta:
@@ -22,4 +21,3 @@ extra:
     - js/custom.js
   extra_css:
     - css/styles.css
-
