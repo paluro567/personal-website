@@ -1,8 +1,8 @@
+## About Me
 
-## About  Me
 <img src="img/profile.png" alt="image" width="400" style="float: right;">
 
-My name is Peter Luro, and I’m a software engineer with a deep passion for developing scalable solutions that tackle complex technological challenges. With over four years of experience in the software industry, I’ve had the privilege of working on exciting projects that make a real impact.
+My name is Peter Luro, and I’m a software engineer with a deep passion for developing scalable solutions that tackle complex technological challenges. With over five years of experience in the software industry, I’ve had the privilege of working on exciting projects that make a real impact.
 
 When it comes to software development, I strive to be a team player. I enjoy working closely with my colleagues and stakeholders to understand their business needs and goals. This has always resulted in creative solutions that meet requirements while also adhering to best practices and industry standards.
 
@@ -13,6 +13,3 @@ If you're interested in learning more about my experience and skills, please don
 ### Education
 
 Bachelor of Science in Computer Science - Worcester Polytechnic Institute (WPI) - 2020
-
-
-
