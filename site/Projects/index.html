@@ -416,13 +416,11 @@
 <h2 id="talcott-resolution-2023-present"><b><center><u>Talcott Resolution</u></b> (2023 - present)</center></h2>
 <p><center><b>Software Engineer (full-time)</b></center></br></p>
 <ul>
+<li><u> Automated Hedging Oracle Database &amp; Reporting</u> </br>
+  Implemented event-driven data processing in a data pipeline that handled nightly hedge data ingestion. The pipeline monitored the arrival of trigger files in a network directory, and once a file was detected, it kicked off a sequence of ETL processes using AutoSys jobs and Oracle procedures. To make the process event-driven and decoupled, I used file watcher jobs as the initial trigger, followed by conditional job dependencies that ensured the appropriate downstream processing only occurred if the previous stage succeeded.</li>
 <li>
 <p><u> Oracle Azure Transition </u> </br>
   Researched Oracle Cloud Infrastructure (OCI) and Microsoft Azure platforms to understand and implement dyanmic commands for uploading and retrieving data files to and from bucket storage. Evaluated authentication methods, command-line utilities, and permission configurations needed for secure access. Integrated this logic with several pre-existing Python scripts, enhancing automation of data transfers and aligning with cloud-based storage workflows for streamlined operational efficiency.</p>
-</li>
-<li>
-<p><u> Automated Hedging Oracle Database &amp; Reporting</u> </br>
-    Implemented event-driven data processing in a data pipeline that handled nightly hedge data ingestion. The pipeline monitored the arrival of trigger files in a network directory, and once a file was detected, it kicked off a sequence of ETL processes using AutoSys jobs and Oracle procedures. To make the process event-driven and decoupled, I used file watcher jobs as the initial trigger, followed by conditional job dependencies that ensured the appropriate downstream processing only occurred if the previous stage succeeded.</p>
 </li>
 <li>
 <p><u> Trade/Settlement Log UI </u> </br>

@@ -2,11 +2,10 @@
 
 <center><b>Software Engineer (full-time)</b></center></br>
 
+- <u> Automated Hedging Oracle Database & Reporting</u> </br>
+  Implemented event-driven data processing in a data pipeline that handled nightly hedge data ingestion. The pipeline monitored the arrival of trigger files in a network directory, and once a file was detected, it kicked off a sequence of ETL processes using AutoSys jobs and Oracle procedures. To make the process event-driven and decoupled, I used file watcher jobs as the initial trigger, followed by conditional job dependencies that ensured the appropriate downstream processing only occurred if the previous stage succeeded.
 - <u> Oracle Azure Transition </u> </br>
   Researched Oracle Cloud Infrastructure (OCI) and Microsoft Azure platforms to understand and implement dyanmic commands for uploading and retrieving data files to and from bucket storage. Evaluated authentication methods, command-line utilities, and permission configurations needed for secure access. Integrated this logic with several pre-existing Python scripts, enhancing automation of data transfers and aligning with cloud-based storage workflows for streamlined operational efficiency.
-
-  - <u> Automated Hedging Oracle Database & Reporting</u> </br>
-    Implemented event-driven data processing in a data pipeline that handled nightly hedge data ingestion. The pipeline monitored the arrival of trigger files in a network directory, and once a file was detected, it kicked off a sequence of ETL processes using AutoSys jobs and Oracle procedures. To make the process event-driven and decoupled, I used file watcher jobs as the initial trigger, followed by conditional job dependencies that ensured the appropriate downstream processing only occurred if the previous stage succeeded.
 
 - <u> Trade/Settlement Log UI </u> </br>
   Led initiative to create a React UI displaying asset positions that have changed from the prior market date, which do not have a corresponding trade/settlement log in the associated Hedging Oracle database. The logic includes dynamic field selection for transaction type, inserting into the trade log tables for each position, CSV download, and the ability to restart the corresponding AutoSys job that has failed due to missing trades data.
