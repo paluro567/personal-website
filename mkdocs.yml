@@ -1,7 +1,7 @@
 site_name: ""
 nav:
   - Home: index.md
-  - Resume: ./img/Luro-Resume-2026.pdf
+  - Resume: img/Luro-Resume-2026.pdf
   - Contact: contact.md
   - Projects: Projects.md
   - Technologies: Technologies.md
