@@ -2,13 +2,15 @@
 
 <img src="img/profile.png" alt="image" width="400" style="float: right;">
 
-My name is Peter Luro, and I’m a software engineer with a deep passion for developing scalable solutions that tackle complex technological challenges. With over five years of experience in the software industry, I’ve had the privilege of working on exciting projects that make a real impact.
+I’m a software engineer working primarily on financial data systems and backend infrastructure. Most of my recent work has been around building Python pipelines that ingest, clean, and validate trading data used in portfolio analytics and risk workflows.
 
-When it comes to software development, I strive to be a team player. I enjoy working closely with my colleagues and stakeholders to understand their business needs and goals. This has always resulted in creative solutions that meet requirements while also adhering to best practices and industry standards.
+At Talcott Resolution, I’ve spent a lot of time dealing with messy, real-world data — things like mismatched identifiers, stale valuations, and inconsistent schemas across different sources. I’ve built systems to reconcile and normalize that data, and more recently have been focused on improving performance by running these pipelines in parallel and deploying them as containerized jobs in Azure.
 
-Outside of work, I enjoy scripting useful functionality for my stock trading Python application. The application runs in GCP cloud on a daily crontab schedule and utilizes the Python Requests library with HTTP GET requests and authorization headers to pull stock recommendations from various sources each day. Then using the Python Alpha Vantage API, I am able to pull real-time stock data and place automated buy and sell orders to complete an entirely automated trading system that has been profitable so far!
+Before that, I worked at Optum where I built data pipelines for large unstructured datasets and worked on ML-related workflows. That experience gave me a solid foundation in handling data at scale, which I’ve carried into my current role in finance.
 
-If you're interested in learning more about my experience and skills, please don't hesitate to get in touch! I'd love to elaborate on how I can help your organization achieve its goals through software engineering!
+Outside of work, I spend a lot of time building out a Python-based trading system. It pulls in intraday market data, tracks setups across multiple tickers, and evaluates signals based on things like EMA crossovers and breakout structure. It’s something I actively iterate on — testing ideas, adjusting logic, and trying to better understand what actually holds up in different market conditions.
+
+I’m interested in moving deeper into quantitative engineering, especially roles where I can work closer to trading systems, market data, and performance-critical infrastructure.
 
 ### Education
 
