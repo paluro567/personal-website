@@ -1,6 +1,6 @@
 ## About Me
 
-<img src="img/profile.png" alt="image" width="400" style="float: right;">
+<img src="img/profile.jpeg" alt="image" width="400" style="float: right;">
 
 I’m a software engineer working primarily on financial data systems and backend infrastructure. Most of my recent work has been around building Python pipelines that ingest, clean, and validate trading data used in portfolio analytics and risk workflows.
 
