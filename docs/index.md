@@ -1,17 +1,60 @@
-## About Me
+# About Me
 
 <img src="img/profile.jpeg" alt="image" width="400" style="float: right;">
 
-I’m a software engineer working primarily on financial data systems and backend infrastructure. Most of my recent work has been around building Python pipelines that ingest, clean, and validate trading data used in portfolio analytics and risk workflows.
+My name is Peter Luro. I’m a software engineer focused on building data systems that support financial workflows, trading processes, and large-scale data validation.
 
-At Talcott Resolution, I’ve spent a lot of time dealing with messy, real-world data — things like mismatched identifiers, stale valuations, and inconsistent schemas across different sources. I’ve built systems to reconcile and normalize that data, and more recently have been focused on improving performance by running these pipelines in parallel and deploying them as containerized jobs in Azure.
+In my current role at Talcott Resolution, I design and maintain backend systems that ingest, validate, and reconcile financial datasets across Oracle, SQL Server, and cloud-based platforms. My work sits directly in the path of downstream reporting, hedging, and actuarial processes, where data accuracy and system reliability are critical.
 
-Before that, I worked at Optum where I built data pipelines for large unstructured datasets and worked on ML-related workflows. That experience gave me a solid foundation in handling data at scale, which I’ve carried into my current role in finance.
+I work primarily in Python and SQL, with experience building asynchronous pipelines, containerized jobs, and metadata-driven ingestion frameworks. Much of my work involves identifying inconsistencies across data sources, normalizing schemas, and ensuring that production workflows operate predictably under failure conditions.
 
-Outside of work, I spend a lot of time building out a Python-based trading system. It pulls in intraday market data, tracks setups across multiple tickers, and evaluates signals based on things like EMA crossovers and breakout structure. It’s something I actively iterate on — testing ideas, adjusting logic, and trying to better understand what actually holds up in different market conditions.
+---
 
-I’m interested in moving deeper into quantitative engineering, especially roles where I can work closer to trading systems, market data, and performance-critical infrastructure.
+## Target Roles
 
-### Education
+- Quantitative Engineer
+- Senior Software Engineer (Backend / Data)
+- Trading Systems Engineer
+- Market Data Engineer
 
-Bachelor of Science in Computer Science - Worcester Polytechnic Institute (WPI) - 2020
+---
+
+## Current Focus
+
+- Designing reliable data pipelines for financial datasets
+- Building validation and reconciliation systems across heterogeneous sources
+- Developing Python-based systems for market data analysis and signal generation
+- Expanding into quantitative engineering concepts including time-series analysis and trading system design
+
+---
+
+## Selected Work
+
+### Financial Data Validation & Reconciliation
+
+Built Python-based validation pipelines to compare and normalize datasets across Oracle and SQL Server environments. These systems identify schema drift, stale data, and mismatches before downstream reporting and risk workflows.
+
+### Azure-Based Data Processing Pipelines
+
+Designed and deployed containerized jobs in Azure to process large financial datasets. Implemented retry logic, structured logging, and failure handling to ensure consistent execution across environments.
+
+### Trading System Development (Personal Project)
+
+Developed a Python-based system that ingests intraday market data, evaluates breakout conditions, and executes rule-based trading logic. The system focuses on identifying high-momentum setups and managing execution constraints in real time.
+
+---
+
+## Approach
+
+I focus on building systems that are:
+
+- Reliable under failure conditions
+- Clear in their data contracts and assumptions
+- Scalable as data volume and complexity increase
+- Useful to downstream consumers without requiring manual intervention
+
+---
+
+## Location
+
+Open to opportunities in Boston, Florida, Utah, & Texas.

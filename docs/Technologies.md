@@ -1,42 +1,45 @@
-## Languages
-| Languages | Experience (years) |
-| ------- | --------------------- |
-| Python | 5 |
-| SQL | 4 |
-| Java | 3 |
-| Javascript | 3 |
-| HTML| 3 |
-| CSS | 3 |
-| Linux Bash | 3 |
-| Groovy (Jenkins) | 3 |
-| C | 3 | 
-| C++ | 2 |
-| React | 2 | 
+# Technologies
 
+## Core Strengths
 
-## Cloud
-| Cloud | Experience (years) |
-| ----- | -------------------|
-| Azure | 3 |
-| Azureml | 3 |
-| Azure DevOps | 2 |
-| Terraform | 1 |
-| Databricks | 1 |
+- **Python** – Data processing, pipeline development, asynchronous workflows
+- **SQL** – Query optimization, data validation, schema design
+- **Pandas** – Data manipulation and analysis
+- **Backend Systems** – API development, data services, workflow orchestration
 
+---
 
-## Software
-| Software | Experience (years) |
-| -------- | -------------------|
-| Microsoft Office | 5 |
-| Github | 5 |
-| Postman | 3 |
-| Kibana | 3 |
-| Draw.io | 3 |
-| Kubernetes | 3 |
-| Docker | 3 |
-| Flask | 3 |
-| Express | 3 |
-| Apache Spark | 2 |
-| Autosys | 1 |
-| Power BI | 1 |
+## Data Engineering & Infrastructure
 
+- Oracle
+- SQL Server
+- Azure (Container Apps, data workflows)
+- Docker
+- Kubernetes (working knowledge)
+
+---
+
+## Financial & Market Data
+
+- Market data ingestion (intraday and daily)
+- Time-series analysis
+- Signal generation and evaluation
+- Trading workflow support
+
+---
+
+## Supporting Technologies
+
+- JavaScript / Node.js
+- React
+- Git / Azure DevOps
+- Power BI
+
+---
+
+## Areas of Growth
+
+- Quantitative modeling and statistical methods
+- Backtesting frameworks for trading strategies
+- Low-latency data processing systems
+- Distributed systems design

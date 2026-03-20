@@ -1,61 +1,121 @@
-## <b><center><u>Talcott Resolution</u></b> \(2023 - present)</center>
+# Projects
 
-<center><b>Software Engineer</b></center></br>
+## Talcott Resolution (2023 – Present)
 
-- <u>Financial Data Pipelines & Validation Systems</u> </br>
-  Built Python-based pipelines to ingest, normalize, and validate trading data used in portfolio analytics and risk workflows. Focused on catching real-world issues like schema drift, stale valuations, and identifier mismatches across multiple data sources. Developed reconciliation logic to ensure consistency between Oracle, SQL Server, and downstream reporting systems.
+### Financial Data Validation & Reconciliation Platform
 
-- <u>Distributed Processing & Cloud Deployment</u> </br>
-  Deployed containerized Python jobs in Azure Container Apps to run nightly financial data processing. Introduced asynchronous workflows (asyncio) to parallelize I/O-heavy ingestion tasks, improving throughput and reducing overall pipeline runtime.
+**Problem**  
+Financial datasets sourced from multiple systems (Oracle, SQL Server, vendor feeds) often contained inconsistencies in identifiers, schema structure, and valuation timing. These issues created downstream risk in reporting and analytics workflows.
 
-- <u>Metadata-Driven Ingestion Framework</u> </br>
-  Designed a flexible ingestion framework to handle vendor data in XML, JSON, and Excel formats. Standardized disparate inputs into consistent schemas for downstream analytics and reporting, reducing manual intervention and improving maintainability.
+**What I Built**  
+Developed Python-based validation pipelines that compare datasets across systems, normalize schema differences, and surface inconsistencies before downstream consumption.
 
-- <u>Hedging & Reporting Automation</u> </br>
-  Built event-driven pipelines using AutoSys to process hedge data triggered by file arrivals. Structured job dependencies to ensure reliable execution and eliminate unnecessary reruns, improving stability of nightly actuarial and hedging reports.
+**Tech Stack**  
+Python, SQL, Oracle, SQL Server, Pandas
 
-- <u>Trade & Settlement Logging System (Full-Stack)</u> </br>
-  Developed a React-based UI to surface positions missing trade/settlement records. Implemented backend logic to insert records into Oracle, trigger downstream jobs, and allow CSV exports. Reduced manual intervention when resolving data gaps.
-
-- <u>Data Infrastructure & Reporting</u> </br>
-  Designed Oracle views, tables, and stored procedures to support Power BI dashboards used for investment analysis and reconciliation. Built dashboards and embedded them into internal applications for easier access by business users.
+**Impact**  
+Improved reliability of nightly reporting workflows and reduced time spent manually investigating data discrepancies.
 
 ---
 
-## <b><center><u>Optum</u></b> (2017–2023)</center>
+### Azure Data Processing & Ingestion Pipelines
 
-<center><b>Software Engineer</b></center></br>
+**Problem**  
+Large financial datasets needed to be processed in a consistent and repeatable way across environments, with visibility into failures and execution state.
 
-- <u>Data Pipelines & ML Workflows</u> </br>
-  Built Python pipelines to process large unstructured datasets (audio + metadata) used in machine learning workflows. Implemented data preparation and segmentation logic to improve dataset quality and model performance. Ran experiments in AzureML and evaluated results to guide improvements.
+**What I Built**  
+Designed containerized Python jobs running in Azure that handle ingestion, transformation, and validation of data files. Implemented structured logging, retry logic, and environment-aware execution.
 
-- <u>API & Kubernetes Deployment</u> </br>
-  Developed REST APIs (Python/Connexion) deployed via Docker and Kubernetes. Built CI/CD pipelines in Jenkins to automate deployment and scaling. Validated endpoints using kubectl and Postman.
+**Tech Stack**  
+Python, Azure Container Apps, Docker, SQL
 
-- <u>Container Security Pipeline</u> </br>
-  Built a Jenkins pipeline to scan Docker images for vulnerabilities before deployment. Integrated with Azure Container Registry and Defender, and automated alerts to owners when critical issues were detected.
-
-- <u>Logging & Observability</u> </br>
-  Implemented centralized logging using Elasticsearch and built Kibana dashboards to track user behavior and identify performance bottlenecks across microservices.
-
-<center><b>Software Engineer Intern</b></center></br>
-
-- <u>Healthcare Scheduling App (React)</u> </br>
-  Led a team of 5 engineers to build a React-based appointment scheduling app for Fenway Health.
-
-- <u>Data Analytics Dashboard</u> </br>
-  Queried large healthcare datasets using Spark SQL and built Kibana dashboards to surface insights around spending and inefficiencies.
-
-- <u>Hackathon Winner</u> </br>
-  1st place (Boston), 2nd nationally — built a mobile app promoting healthy daily routines.
+**Impact**  
+Enabled scalable and repeatable processing of data feeds with improved observability and failure handling.
 
 ---
 
-## <b><center><u>Additional Work</u></center></b>
+### Metadata-Driven Data Ingestion Framework
 
-- <u>Systematic Trading Platform (Personal)</u> </br>
-  Built a Python-based system that ingests intraday market data, tracks setups across multiple tickers, and generates signals based on EMA crossovers and breakout conditions. Runs on scheduled jobs in GCP and continuously evolves through testing and iteration.
+**Problem**  
+Ingesting multiple file formats (XML, JSON, Excel) required repetitive and brittle code, making it difficult to scale ingestion workflows.
 
-- <u>Sitetracker (WPI Project)</u> </br>
-  Built a mobile app for construction project management, including task prioritization and site tracking. Developed backend services using Express and a NoSQL database.  
-  Link to [final report](https://web.cs.wpi.edu/~claypool/mqp/sv/2019/site/).
+**What I Built**  
+Created a flexible ingestion framework driven by configuration metadata, allowing new data sources to be integrated with minimal code changes.
+
+**Tech Stack**  
+Python, Pandas, XML/JSON parsing
+
+**Impact**  
+Reduced onboarding time for new datasets and improved maintainability of ingestion logic.
+
+---
+
+### Trade & Settlement Logging System
+
+**Problem**  
+Trade and settlement data needed to be captured, validated, and persisted reliably for downstream processes.
+
+**What I Built**  
+Developed backend API routes and database logic to log trade and settlement activity, including validation checks and enrichment from upstream systems. Built a React-based interface for interacting with this data.
+
+**Tech Stack**  
+Node.js, React, Oracle, SQL
+
+**Impact**  
+Improved visibility into trade data and reduced manual tracking efforts.
+
+---
+
+## Optum (2021 – 2023)
+
+### Enterprise Data Pipeline Development
+
+Built and maintained data pipelines supporting healthcare analytics workflows. Focused on data transformation, validation, and efficient processing of large datasets.
+
+**Tech Stack**  
+Python, SQL, ETL pipelines
+
+---
+
+## Personal Projects
+
+### Trading Signal & Execution System
+
+**Overview**  
+Developed a Python-based system that monitors intraday market data and identifies breakout conditions based on price action and moving averages.
+
+**Core Components**
+
+- Market data ingestion (intraday intervals)
+- Signal generation based on technical conditions (e.g., EMA crossovers, breakout levels)
+- Execution logic with constraints to prevent duplicate or excessive trades
+- Logging and monitoring of trade activity
+
+**What I Learned**
+
+- Handling noisy real-time data and incomplete datasets
+- Avoiding duplicate signals and overtrading
+- Managing execution timing and constraints
+- Understanding the gap between theoretical signals and real-world execution
+
+---
+
+### Data Analysis & Market Research Tooling
+
+Built scripts to analyze historical stock performance, evaluate valuation metrics, and explore patterns in price behavior under different market conditions.
+
+**Focus Areas**
+
+- Time-series analysis
+- Valuation metrics (P/E, forward P/E)
+- Market behavior under different macro conditions
+
+---
+
+## Selected Problems I've Solved
+
+- Reconciling inconsistent identifiers across financial datasets
+- Detecting schema drift between environments
+- Handling incomplete or delayed market data feeds
+- Designing ingestion pipelines for multiple file formats
+- Ensuring reliability in scheduled and event-driven workflows
