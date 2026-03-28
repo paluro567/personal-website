@@ -18,17 +18,20 @@ I built Python validation pipelines that compare datasets across systems, normal
 
 ---
 
-### Azure Data Processing & Ingestion Pipelines
+### Azure On-Demand Reporting Platform
 
-Large financial datasets needed to move through ingestion, transformation, and validation consistently across environments — with enough visibility to diagnose failures without manual log digging.
+Business users needed a way to generate operational reports on demand without relying on long-running batch jobs or permanently allocated compute.
 
-I designed containerized Python jobs running in Azure Container Apps that handle the full pipeline. Each job emits structured logs, retries on transient failures, and behaves identically across dev and production environments.
+I built a FastAPI service deployed in Azure Container Apps, exposing HTTP endpoints through ingress to trigger report-generation workflows. These endpoints launch Azure Container App Jobs that spin up containerized Python processes to generate downloadable XLSX reports for the business. This architecture cleanly separates lightweight API orchestration from heavier compute workloads, enabling scalable, on-demand report generation across environments.
 
 <div class="project-meta">
   <span class="tech-badge">Python</span>
+  <span class="tech-badge">FastAPI</span>
   <span class="tech-badge">Azure Container Apps</span>
+  <span class="tech-badge">Azure Container App Jobs</span>
   <span class="tech-badge">Docker</span>
-  <span class="tech-badge">SQL</span>
+  <span class="tech-badge">HTTP APIs</span>
+  <span class="tech-badge">XLSX Reporting</span>
 </div>
 
 ---
