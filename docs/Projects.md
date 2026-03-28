@@ -77,6 +77,23 @@ Built and maintained ETL pipelines supporting healthcare analytics workflows. Fo
 
 ---
 
+### Kafka Application Logging to Azure Event Hubs & ELK Stack
+
+Application logs were scattered across services with no centralized way to monitor behavior, trace errors, or analyze patterns across systems.
+
+I configured a Kafka-based logging pipeline that captured application events and streamed them to Azure Event Hubs. From there, logs were ingested into an ELK stack — Elasticsearch for indexing and storage, Logstash for transformation and enrichment, and Kibana for visualization. Built dashboards in Kibana to surface error rates, latency trends, and service health across environments.
+
+<div class="project-meta">
+  <span class="tech-badge">Kafka</span>
+  <span class="tech-badge">Azure Event Hubs</span>
+  <span class="tech-badge">Elasticsearch</span>
+  <span class="tech-badge">Logstash</span>
+  <span class="tech-badge">Kibana</span>
+  <span class="tech-badge">ELK Stack</span>
+</div>
+
+---
+
 ## Personal Projects
 
 ### Trading Signal & Execution System
