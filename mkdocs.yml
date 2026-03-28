@@ -1,23 +1,39 @@
-site_name: ""
+site_name: Peter Luro
+site_description: Software Engineer · Data Engineer · Quantitative Systems
+
 nav:
   - Home: index.md
-  - Resume: img/Luro-Resume-2026.pdf
-  - Contact: contact.md
   - Projects: Projects.md
   - Technologies: Technologies.md
+  - Resume: img/Luro-Resume-2026.pdf
+  - Contact: contact.md
 
 theme:
   name: material
-  logo: "./img/personal-logo.png" # path to your logo within the 'docs' folder
+  logo: img/pl-logo.svg
+  favicon: img/pl-logo.svg
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - css/styles.css
+
+extra_javascript:
+  - js/custom.js
 
 extra:
-  meta:
-    title: "Peter Luro - personal portfolio"
-    description: "Description of your MkDocs site - Peter Luro."
-    keywords: "Peter Luro"
-  # extra_css:
-  #   - css/custom.css
-  extra_javascript:
-    - js/custom.js
-  extra_css:
-    - css/styles.css
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/peter-luro-a233a1148/
+    - icon: fontawesome/regular/envelope
+      link: mailto:peter.luro1@gmail.com

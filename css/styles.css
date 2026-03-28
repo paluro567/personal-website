@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* Cursive PL monogram logo */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 42px;
+  width: auto;
+}
+
 /* Hide the "Home" link in the regular navigation */
 nav.md-nav__list > li:first-child {
     display: none;

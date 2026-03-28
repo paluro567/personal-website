@@ -1,60 +1,69 @@
-# About Me
+<div class="profile-section">
+<img src="img/profile.jpeg" alt="Peter Luro" class="profile-photo">
+<div>
 
-<img src="img/profile.jpeg" alt="image" width="400" style="float: right;">
+<p class="profile-tagline">Software Engineer &nbsp;·&nbsp; Data Engineer</p>
 
-My name is Peter Luro. I’m a software engineer focused on building data systems that support financial workflows, trading processes, and large-scale data validation.
+I build data systems for financial workflows — validation pipelines, ingestion frameworks, and trading infrastructure that operate reliably in production. Currently at Talcott Resolution, where my work feeds directly into hedging, reporting, and actuarial processes.
 
-In my current role at Talcott Resolution, I design and maintain backend systems that ingest, validate, and reconcile financial datasets across Oracle, SQL Server, and cloud-based platforms. My work sits directly in the path of downstream reporting, hedging, and actuarial processes, where data accuracy and system reliability are critical.
+My primary tools are Python and SQL. I focus on systems where data quality matters: catching schema drift before it reaches downstream consumers, designing for failure modes, and keeping pipelines maintainable as requirements evolve.
 
-I work primarily in Python and SQL, with experience building asynchronous pipelines, containerized jobs, and metadata-driven ingestion frameworks. Much of my work involves identifying inconsistencies across data sources, normalizing schemas, and ensuring that production workflows operate predictably under failure conditions.
+</div>
+</div>
 
 ---
 
-## Target Roles
+## Open To
 
-- Quantitative Engineer
-- Senior Software Engineer (Backend / Data)
-- Trading Systems Engineer
-- Market Data Engineer
+<div class="role-tags">
+  <span class="role-tag">Quantitative Engineer</span>
+  <span class="role-tag">Senior SWE — Backend / Data</span>
+  <span class="role-tag">Trading Systems Engineer</span>
+  <span class="role-tag">Market Data Engineer</span>
+</div>
 
 ---
 
 ## Current Focus
 
-- Designing reliable data pipelines for financial datasets
-- Building validation and reconciliation systems across heterogeneous sources
-- Developing Python-based systems for market data analysis and signal generation
-- Expanding into quantitative engineering concepts including time-series analysis and trading system design
+- Building validation and reconciliation systems for financial datasets across heterogeneous sources
+- Designing Python-based tools for market data analysis and signal generation
+- Deepening into quantitative methods — time-series analysis, backtesting, and trading system architecture
 
 ---
 
-## Selected Work
+## Work Highlights
 
-### Financial Data Validation & Reconciliation
+Full details on the [Projects](Projects.md) page.
 
-Built Python-based validation pipelines to compare and normalize datasets across Oracle and SQL Server environments. These systems identify schema drift, stale data, and mismatches before downstream reporting and risk workflows.
+<div class="highlight-card">
+<strong>Financial Data Validation Platform</strong>
+Python pipelines that detect schema drift, stale data, and identifier mismatches across Oracle and SQL Server before they reach downstream risk workflows.
+</div>
 
-### Azure-Based Data Processing Pipelines
+<div class="highlight-card">
+<strong>Azure Ingestion Pipelines</strong>
+Containerized jobs with retry logic, structured logging, and environment-aware execution for processing large financial datasets at scale.
+</div>
 
-Designed and deployed containerized jobs in Azure to process large financial datasets. Implemented retry logic, structured logging, and failure handling to ensure consistent execution across environments.
-
-### Trading System Development (Personal Project)
-
-Developed a Python-based system that ingests intraday market data, evaluates breakout conditions, and executes rule-based trading logic. The system focuses on identifying high-momentum setups and managing execution constraints in real time.
+<div class="highlight-card">
+<strong>Trading Execution System</strong>
+Personal project: ingests intraday market data, evaluates EMA and breakout conditions, and submits orders through Alpaca's API with PDT compliance built in.
+</div>
 
 ---
 
 ## Approach
 
-I focus on building systems that are:
+Systems I build are:
 
-- Reliable under failure conditions
-- Clear in their data contracts and assumptions
-- Scalable as data volume and complexity increase
-- Useful to downstream consumers without requiring manual intervention
+- **Predictable** — fail loudly with clear signals, not silently
+- **Honest** — documented assumptions, explicit schemas, typed where it matters
+- **Maintainable** — readable by the next engineer without a walkthrough
+- **Useful downstream** — consumers shouldn't need to work around my output
 
 ---
 
 ## Location
 
-Open to opportunities in Boston, Florida, Utah, & Texas.
+Open to opportunities in Boston, Florida, Utah, and Texas. Open to remote.

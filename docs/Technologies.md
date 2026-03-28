@@ -1,45 +1,60 @@
 # Technologies
 
-## Core Strengths
+## Core
 
-- **Python** – Data processing, pipeline development, asynchronous workflows
-- **SQL** – Query optimization, data validation, schema design
-- **Pandas** – Data manipulation and analysis
-- **Backend Systems** – API development, data services, workflow orchestration
+<div class="skill-tags">
+  <span class="skill-tag">Python</span>
+  <span class="skill-tag">SQL</span>
+  <span class="skill-tag">Pandas</span>
+  <span class="skill-tag">Backend APIs</span>
+</div>
+
+Python and SQL are my primary tools. I build data pipelines, asynchronous processing jobs, validation frameworks, and API services. Most of my production work runs in Python against Oracle or SQL Server.
 
 ---
 
 ## Data Engineering & Infrastructure
 
-- Oracle
-- SQL Server
-- Azure (Container Apps, data workflows)
-- Docker
-- Kubernetes (working knowledge)
+<div class="skill-tags">
+  <span class="skill-tag">Oracle</span>
+  <span class="skill-tag">SQL Server</span>
+  <span class="skill-tag">Azure Container Apps</span>
+  <span class="skill-tag">Docker</span>
+  <span class="skill-tag">Kubernetes</span>
+</div>
+
+Day-to-day work involves moving and validating data across Oracle and SQL Server environments. On the infrastructure side, I deploy containerized jobs in Azure and use Docker for consistent execution across environments. Working knowledge of Kubernetes.
 
 ---
 
 ## Financial & Market Data
 
-- Market data ingestion (intraday and daily)
-- Time-series analysis
-- Signal generation and evaluation
-- Trading workflow support
+<div class="skill-tags">
+  <span class="skill-tag">Intraday Data Ingestion</span>
+  <span class="skill-tag">Time-Series Analysis</span>
+  <span class="skill-tag">Signal Generation</span>
+  <span class="skill-tag">Order Execution</span>
+</div>
+
+Experience building systems that ingest, normalize, and act on market data in real time — EMA-based signal generation, breakout detection, and trade execution through brokerage APIs.
 
 ---
 
-## Supporting Technologies
+## Supporting
 
-- JavaScript / Node.js
-- React
-- Git / Azure DevOps
-- Power BI
+<div class="skill-tags">
+  <span class="skill-tag">JavaScript</span>
+  <span class="skill-tag">Node.js</span>
+  <span class="skill-tag">React</span>
+  <span class="skill-tag">Git</span>
+  <span class="skill-tag">Azure DevOps</span>
+  <span class="skill-tag">Power BI</span>
+</div>
 
 ---
 
-## Areas of Growth
+## Learning
 
 - Quantitative modeling and statistical methods
-- Backtesting frameworks for trading strategies
-- Low-latency data processing systems
-- Distributed systems design
+- Backtesting frameworks for systematic trading strategies
+- Low-latency data processing and distributed systems design

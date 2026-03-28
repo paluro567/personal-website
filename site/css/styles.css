@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* ── Header: hide title text, PL logo is the only home link ───── */
+.md-header__title {
+  display: none !important;
+}
+
+
+/* ── Profile section ──────────────────────────────────────────── */
+.profile-section {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  margin-bottom: 0.25rem;
+}
+
+.profile-photo {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.13);
+}
+
+.profile-tagline {
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.09em !important;
+  text-transform: uppercase !important;
+  color: var(--md-primary-fg-color) !important;
+  margin-bottom: 0.85rem !important;
+  margin-top: 0.1rem !important;
+}
+
+@media (max-width: 640px) {
+  .profile-section {
+    flex-direction: column;
+  }
+  .profile-photo {
+    width: 100%;
+    max-width: 220px;
+  }
+}
+
+/* ── Role / target tags ───────────────────────────────────────── */
+.role-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.6rem 0 0.25rem;
+}
+
+.role-tag {
+  display: inline-block;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.25rem 0.85rem;
+  border-radius: 999px;
+}
+
+/* ── Work highlight cards ─────────────────────────────────────── */
+.highlight-card {
+  border-left: 3px solid var(--md-primary-fg-color);
+  padding: 0.6rem 0 0.6rem 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.highlight-card strong {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+/* ── Project tech badges ──────────────────────────────────────── */
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.85rem;
+}
+
+.tech-badge {
+  display: inline-block;
+  background: var(--md-code-bg-color);
+  color: var(--md-code-fg-color);
+  font-family: var(--md-code-font-family);
+  font-size: 0.78rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* ── Section employer/tenure line ────────────────────────────── */
+.tenure {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+  margin-left: 0.5rem;
+}
+
+/* ── Skill tags (Technologies page) ──────────────────────────── */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.5rem 0 0.85rem;
+}
+
+.skill-tag {
+  display: inline-block;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.25rem 0.85rem;
+  border-radius: 999px;
+}
+
+/* ── Contact grid ─────────────────────────────────────────────── */
+.contact-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.85rem 1.5rem;
+  align-items: center;
+  max-width: 460px;
+  margin-top: 1.25rem;
+}
+
+.contact-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--md-primary-fg-color);
+  white-space: nowrap;
+}
