@@ -1,8 +1,10 @@
+# Peter Luro
+
+<p class="hero-subtitle">Software Engineer &nbsp;·&nbsp; Data Engineer &nbsp;·&nbsp; Quantitative Systems</p>
+
 <div class="profile-section">
 <img src="img/profile.jpeg" alt="Peter Luro" class="profile-photo">
 <div>
-
-<p class="profile-tagline">Software Engineer &nbsp;·&nbsp; Data Engineer</p>
 
 I build data systems for financial workflows — validation pipelines, ingestion frameworks, and trading infrastructure that operate reliably in production. Currently at Talcott Resolution, where my work feeds directly into hedging, reporting, and actuarial processes.
 
