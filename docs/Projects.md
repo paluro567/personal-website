@@ -66,7 +66,7 @@ I built the backend API routes and database logic to log trade activity, applyin
 
 ---
 
-## Optum <span class="tenure">2021 – 2023</span> { .employer-header }
+## Optum <span class="tenure">2020 – 2023</span> { .employer-header }
 
 ### Enterprise Data Pipeline Development
 
