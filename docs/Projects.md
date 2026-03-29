@@ -4,17 +4,11 @@
 
 ### Financial Data Validation & Reconciliation Platform
 
-Financial datasets arriving from Oracle, SQL Server, and vendor feeds routinely contained identifier mismatches, schema inconsistencies, and valuation timing gaps — issues that, uncaught, propagate silently into nightly reporting and risk workflows.
+Downstream reporting depended on data from multiple systems that frequently diverged due to timing differences, schema mismatches, and vendor inconsistencies.
 
-I built Python validation pipelines that compare datasets across systems, normalize schemas, and surface discrepancies before downstream consumption. The system runs automatically and flags anomalies with enough context for consuming teams to act without manual investigation.
+I built Python validation pipelines that compare datasets across Oracle, SQL Server, and vendor feeds, normalize schemas, and surface discrepancies before they reach reporting workflows. The system runs automatically and produces actionable outputs, allowing teams to quickly identify and resolve data issues without manual investigation.
 
-<div class="project-meta">
-  <span class="tech-badge">Python</span>
-  <span class="tech-badge">SQL</span>
-  <span class="tech-badge">Oracle</span>
-  <span class="tech-badge">SQL Server</span>
-  <span class="tech-badge">Pandas</span>
-</div>
+<div class="project-meta"> <span class="tech-badge">Python</span> <span class="tech-badge">SQL</span> <span class="tech-badge">Oracle</span> <span class="tech-badge">SQL Server</span> <span class="tech-badge">Pandas</span> </div>
 
 ---
 
@@ -38,16 +32,11 @@ I built a FastAPI service deployed in Azure Container Apps, exposing HTTP endpoi
 
 ### Metadata-Driven Ingestion Framework
 
-Onboarding a new data source meant writing custom ingestion code for each file format — a pattern that was brittle to maintain and slow to extend.
+Adding new data sources previously required writing custom ingestion logic for each format, slowing onboarding and increasing maintenance overhead.
 
-I replaced it with a configuration-driven framework where each source is described by a metadata spec. Adding a new source means writing config, not code. The framework handles XML, JSON, and Excel uniformly with shared validation and error handling across all formats.
+I designed a metadata-driven framework where each data source is defined by configuration rather than code. The system handles XML, JSON, and Excel inputs using shared processing logic, enabling rapid onboarding of new sources while maintaining consistent validation, transformation, and error handling across pipelines.
 
-<div class="project-meta">
-  <span class="tech-badge">Python</span>
-  <span class="tech-badge">Pandas</span>
-  <span class="tech-badge">XML</span>
-  <span class="tech-badge">JSON</span>
-</div>
+<div class="project-meta"> <span class="tech-badge">Python</span> <span class="tech-badge">Pandas</span> <span class="tech-badge">XML</span> <span class="tech-badge">JSON</span> <span class="tech-badge">Configuration-Driven Design</span> </div>
 
 ---
 
