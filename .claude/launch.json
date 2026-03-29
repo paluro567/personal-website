@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "font-preview",
+      "runtimeExecutable": "mkdocs",
+      "runtimeArgs": ["serve", "--dev-addr", "0.0.0.0:8090"],
+      "port": 8090
+    }
+  ]
+}

@@ -1,6 +1,7 @@
-# Peter Luro
-
-<p class="hero-subtitle">Software Engineer &nbsp;·&nbsp; Data Engineer &nbsp;·&nbsp; Quantitative Systems</p>
+<div class="hero-card">
+  <h1 class="hero-name">Peter Luro</h1>
+  <p class="hero-subtitle">Software Engineer &nbsp;·&nbsp; Data Engineer &nbsp;·&nbsp; Quantitative Systems</p>
+</div>
 
 <div class="profile-section">
 <img src="img/profile.jpeg" alt="Peter Luro" class="profile-photo">
