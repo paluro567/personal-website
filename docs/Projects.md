@@ -1,6 +1,6 @@
 # Projects
 
-## Talcott Resolution <span class="tenure">2023 – Present</span>
+## Talcott Resolution <span class="tenure">2023 – Present</span> { .employer-header }
 
 ### Financial Data Validation & Reconciliation Platform
 
@@ -66,16 +66,19 @@ I built the backend API routes and database logic to log trade activity, applyin
 
 ---
 
-## Optum <span class="tenure">2021 – 2023</span>
+## Optum <span class="tenure">2021 – 2023</span> { .employer-header }
 
 ### Enterprise Data Pipeline Development
 
-Built and maintained ETL pipelines supporting healthcare analytics workflows. Focused on efficient transformation, validation, and routing of large datasets across internal systems.
+Healthcare data arrived from multiple upstream sources in inconsistent formats, with no standardized validation layer before it reached analytics consumers.
+
+I built and maintained ETL pipelines that ingested, transformed, and routed large healthcare datasets across internal systems. Focused on correctness at the transformation layer — enforcing business rules, surfacing upstream data quality issues early, and ensuring downstream analytics workflows received clean, reliable inputs.
 
 <div class="project-meta">
   <span class="tech-badge">Python</span>
   <span class="tech-badge">SQL</span>
   <span class="tech-badge">ETL</span>
+  <span class="tech-badge">Data Validation</span>
 </div>
 
 ---
@@ -97,7 +100,7 @@ I configured a Kafka-based logging pipeline that captured application events and
 
 ---
 
-## Personal Projects
+## Personal Projects { .employer-header }
 
 ### Trading Signal & Execution System
 

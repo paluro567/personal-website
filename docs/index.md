@@ -1,6 +1,5 @@
 <div class="hero-card">
   <h1 class="hero-name">Peter Luro</h1>
-  <p class="hero-subtitle">Software Engineer &nbsp;·&nbsp; Data Engineer &nbsp;·&nbsp; Quantitative Systems</p>
 </div>
 
 <div class="profile-section">
@@ -19,10 +18,10 @@ My primary tools are Python and SQL. I focus on systems where data quality matte
 ## Open To
 
 <div class="role-tags">
-  <span class="role-tag">Quantitative Engineer</span>
-  <span class="role-tag">Senior SWE — Backend / Data</span>
-  <span class="role-tag">Trading Systems Engineer</span>
   <span class="role-tag">Market Data Engineer</span>
+  <span class="role-tag">Senior SWE — Backend / Data</span>
+  <span class="role-tag">Quantitative Engineer</span>
+  <span class="role-tag">Trading Systems Engineer</span>
 </div>
 
 ---
@@ -69,4 +68,10 @@ Systems I build are:
 
 ## Location
 
-Open to opportunities in Boston, Florida, Utah, and Texas. Open to remote.
+Open to opportunities in:
+
+- Boston
+- Florida
+- Utah
+- Texas
+- Remote

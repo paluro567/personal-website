@@ -24,16 +24,6 @@
   color: #000000 !important;
 }
 
-.hero-subtitle {
-  font-size: 0.85rem !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.1em !important;
-  text-transform: uppercase !important;
-  color: var(--md-primary-fg-color) !important;
-  margin-bottom: 1.75rem !important;
-  margin-top: 0 !important;
-}
-
 /* ── "Peter Luro" home tab — subtle brand treatment ──────────── */
 .md-tabs__list > li:first-child a {
   font-weight: 600;
@@ -97,14 +87,15 @@
 
 /* ── Work highlight cards ─────────────────────────────────────── */
 .highlight-card {
-  border-left: 3px solid var(--md-primary-fg-color);
-  padding: 0.6rem 0 0.6rem 1.1rem;
-  margin-bottom: 1rem;
+  background: var(--md-code-bg-color);
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .highlight-card strong {
   display: block;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.25rem;
 }
 
 /* ── Project tech badges ──────────────────────────────────────── */
@@ -150,6 +141,18 @@
   font-weight: 500;
   padding: 0.25rem 0.85rem;
   border-radius: 999px;
+}
+
+/* ── Employer section headers (Projects page) ─────────────────── */
+.employer-header {
+  border-bottom: 2px solid var(--md-primary-fg-color);
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+/* ── Hide "Made with Material for MkDocs" footer ─────────────── */
+.md-footer-meta {
+  display: none;
 }
 
 /* ── Contact grid ─────────────────────────────────────────────── */

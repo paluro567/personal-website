@@ -31,8 +31,13 @@ extra_css:
 extra_javascript:
   - js/custom.js
 
+markdown_extensions:
+  - attr_list
+
 extra:
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/peterluro
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/peter-luro-a233a1148/
     - icon: fontawesome/regular/envelope

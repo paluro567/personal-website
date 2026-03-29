@@ -51,10 +51,16 @@ Experience building systems that ingest, normalize, and act on market data in re
   <span class="skill-tag">Power BI</span>
 </div>
 
+Used across full-stack features, CI/CD pipelines, and internal tooling. React and Node.js were primary on the trade and settlement logging system at Talcott; Azure DevOps and Power BI are day-to-day at the enterprise level.
+
 ---
 
 ## Learning
 
-- Quantitative modeling and statistical methods
-- Backtesting frameworks for systematic trading strategies
-- Low-latency data processing and distributed systems design
+<div class="skill-tags">
+  <span class="skill-tag">Quantitative Modeling</span>
+  <span class="skill-tag">Statistical Methods</span>
+  <span class="skill-tag">Backtesting</span>
+  <span class="skill-tag">Distributed Systems</span>
+  <span class="skill-tag">Low-Latency Processing</span>
+</div>
