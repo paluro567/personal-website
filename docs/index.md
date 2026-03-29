@@ -28,9 +28,10 @@ My primary tools are Python and SQL. I focus on systems where data quality matte
 
 ## Current Focus
 
-- Building validation and reconciliation systems for financial datasets across heterogeneous sources
-- Designing Python-based tools for market data analysis and signal generation
-- Deepening into quantitative methods — time-series analysis, backtesting, and trading system architecture
+- Building Azure Container App services that give actuaries on-demand XLSX report generation without touching batch infrastructure
+- Configuring Autosys job scheduling for production workflows with structured error handling and dependency chains
+- Designing and implementing file loading strategies into a SQL Server data lake, handling complex source formats and schema variation at ingestion
+- Provisioning Azure resources and pipelines to support nightly hedging batch processes ensuring reliable, environment-aware execution across DEV/QA/PTE/PROD
 
 ---
 
