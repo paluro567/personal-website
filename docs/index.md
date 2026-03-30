@@ -56,17 +56,6 @@ Personal project: ingests intraday market data, evaluates EMA and breakout condi
 
 ---
 
-## Approach
-
-Systems I build are:
-
-- **Predictable** — fail loudly with clear signals, not silently
-- **Honest** — documented assumptions, explicit schemas, typed where it matters
-- **Maintainable** — readable by the next engineer without a walkthrough
-- **Useful downstream** — consumers shouldn't need to work around my output
-
----
-
 ## Location
 
 Open to opportunities in:
