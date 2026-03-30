@@ -109,7 +109,9 @@ Built to understand the practical gap between signal generation and live executi
 
 ### Market Data Analysis & Research Tools
 
-Scripts for analyzing historical stock performance, screening intraday setups, and evaluating valuation metrics across watchlists. Work spans time-series pattern analysis, P/E screening, RSI-based momentum signals, and sentiment scoring from news feeds.
+Personal scripts for analyzing historical stock performance, screening intraday setups, and evaluating valuation metrics across watchlists. Work spans time-series pattern analysis, P/E screening, RSI-based momentum signals, and sentiment scoring from news feeds.
+
+[View on GitHub](https://github.com/paluro567/trade)
 
 <div class="project-meta">
   <span class="tech-badge">Python</span>
