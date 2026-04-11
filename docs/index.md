@@ -3,18 +3,26 @@
 </div>
 
 <div class="profile-section">
-<img src="img/profile.jpeg" alt="Peter Luro" class="profile-photo">
-<div>
-
-I build systems that actually hold up in production - financial data pipelines, reporting workflows, and trading tools that need to run reliably and on time.
-<br><br>
-At Talcott Resolution, I work on data pipelines and reporting systems used by actuarial and hedging teams. A lot of the work is making sure large, messy datasets (XML, JSON, SQL) get processed correctly and consistently, and that downstream reports are accurate and delivered when they’re expected. I’ve spent a lot of time dealing with edge cases, fixing data issues, and improving reliability across these workflows.
-<br><br>
-Most of what I build is in Python, with Oracle/SQL Server on the backend and Azure handling compute and orchestration. I’ve also worked on APIs that trigger processing jobs and generate reports on demand.
-
-Outside of work, I’ve been building out trading and market analysis tools. This includes pulling market data, testing strategies, and automating parts of the decision process. It’s been a good way to apply what I do professionally to something more open-ended.
-
+  <img src="img/profile.jpeg" alt="Peter Luro" class="profile-photo">
+  <div class="profile-intro">
+    <p>
+      I build systems that actually hold up in production: financial data pipelines, reporting workflows, and trading tools that need to run reliably and on time.
+    </p>
+  </div>
 </div>
+
+<div class="profile-body">
+  <p>
+    At Talcott Resolution, I work on data pipelines and reporting systems used by actuarial and hedging teams. A lot of the work is making sure large, messy datasets from XML, JSON, and SQL sources get processed correctly and consistently, and that downstream reports are accurate and delivered when they are expected. I have spent a lot of time dealing with edge cases, fixing data issues, and improving reliability across these workflows.
+  </p>
+
+  <p>
+    Most of what I build is in Python, with Oracle and SQL Server on the backend and Azure handling compute and orchestration. I have also worked on APIs that trigger processing jobs and generate reports on demand.
+  </p>
+
+  <p>
+    Outside of work, I have been building trading and market analysis tools. This includes pulling market data, testing strategies, and automating parts of the decision process. It has been a good way to apply what I do professionally to something more open-ended.
+  </p>
 </div>
 
 ---
@@ -23,7 +31,7 @@ Outside of work, I’ve been building out trading and market analysis tools. Thi
 
 <div class="role-tags">
   <span class="role-tag">Market Data Engineer</span>
-  <span class="role-tag">Senior SWE — Backend / Data</span>
+  <span class="role-tag">Senior SWE / Backend / Data</span>
   <span class="role-tag">Quantitative Engineer</span>
   <span class="role-tag">Trading Systems Engineer</span>
 </div>
@@ -35,7 +43,7 @@ Outside of work, I’ve been building out trading and market analysis tools. Thi
 - Building Azure Container App services that give actuaries on-demand XLSX report generation without touching batch infrastructure
 - Configuring Autosys job scheduling for production workflows with structured error handling and dependency chains
 - Designing and implementing file loading strategies into a SQL Server data lake, handling complex source formats and schema variation at ingestion
-- Provisioning Azure resources and pipelines to support nightly hedging batch processes ensuring reliable, environment-aware execution across DEV/QA/PTE/PROD
+- Provisioning Azure resources and pipelines to support nightly hedging batch processes with reliable, environment-aware execution across DEV, QA, PTE, and PROD
 
 ---
 
