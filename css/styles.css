@@ -1,5 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+/* ── Intro section ────────────────────────────────────────────── */
+.intro-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro-section .profile-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.intro-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.intro-content p {
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+  line-height: 1.7;
+}
+
+.intro-content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .intro-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 /* ── Contact list ─────────────────────────────────────────────── */
 .contact-list {
   display: flex;
