@@ -2,6 +2,28 @@
 
 ## Talcott Resolution <span class="tenure">2023 – Present</span> { .employer-header }
 
+### GEAR — Enterprise Reporting Platform <span class="tenure">ACE Award Nominee · 2026</span>
+
+Actuarial and investment reporting ran on manual data extraction, heavy Excel manipulation, and email distribution. It was slow, hard to scale, and exposed to human error and key-person dependency — and some analysis was never produced at all, because there was no capacity to assemble it by hand.
+
+I built GEAR (General Email and Reporting Application), a cloud-native platform that generates formatted actuarial XLSX reports on demand and on a schedule. Reports are defined by configuration rather than code: GEAR starts from a template workbook, runs the configured queries against the investment data lake, and writes each result set into its designated sheet with the template's formatting intact. A FastAPI service in Azure Container Apps handles orchestration and dispatches heavier generation work to Container App Jobs, with Microsoft Entra authentication, secure browser and Teams access, and release management through Azure DevOps. Event-driven notifications alert users when monitored conditions are met.
+
+The configuration-driven design is what let it scale — new report types are onboarded without redesigning the application. The automated report inventory nearly doubled over the past year to 69 production use cases, removing an estimated 95 person-days of manual effort per month and shifting that time from assembling reports to interpreting them. GEAR was nominated for Talcott's ACE Award in 2026.
+
+<div class="project-meta">
+  <span class="tech-badge">Python</span>
+  <span class="tech-badge">FastAPI</span>
+  <span class="tech-badge">Azure Container Apps</span>
+  <span class="tech-badge">Azure Container App Jobs</span>
+  <span class="tech-badge">Microsoft Entra</span>
+  <span class="tech-badge">Azure DevOps</span>
+  <span class="tech-badge">Microsoft Teams</span>
+  <span class="tech-badge">SQL</span>
+  <span class="tech-badge">XLSX Reporting</span>
+</div>
+
+---
+
 ### Financial Data Validation & Reconciliation Platform
 
 Downstream reporting depended on data from multiple systems that frequently diverged due to timing differences, schema mismatches, and vendor inconsistencies.
