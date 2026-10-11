@@ -2,7 +2,7 @@
 
 ## Talcott Resolution <span class="tenure">2023 – Present</span> { .employer-header }
 
-### GEAR — Enterprise Reporting Platform <span class="tenure">ACE Award Nominee · 2026</span>
+### GEAR — Enterprise Reporting Platform <span class="tenure">ACE Award Winner · 2026</span>
 
 Actuarial and investment reporting ran on manual data extraction, heavy Excel manipulation, and email distribution. It was slow, hard to scale, and exposed to human error and key-person dependency — and some analysis was never produced at all, because there was no capacity to assemble it by hand.
 
@@ -10,7 +10,7 @@ I built GEAR (General Email and Reporting Application), a cloud-native platform 
 
 A FastAPI service in Azure Container Apps exposes HTTP endpoints through ingress and handles orchestration, while Azure Container App Jobs run the heavier generation work as containerized Python processes that produce downloadable XLSX reports. Separating lightweight API orchestration from compute lets reports be generated on demand across environments without long-running batch jobs or permanently allocated compute. The platform also provides Microsoft Entra authentication, secure browser and Teams access, release management through Azure DevOps, and event-driven notifications that alert users when monitored conditions are met.
 
-The configuration-driven design is what let it scale — new report types are onboarded without redesigning the application. The automated report inventory nearly doubled over the past year to 69 production use cases, removing an estimated 95 person-days of manual effort per month and shifting that time from assembling reports to interpreting them. I was nominated for Talcott's ACE Award in 2026 for my work on GEAR.
+The configuration-driven design is what let it scale — new report types are onboarded without redesigning the application. The automated report inventory nearly doubled over the past year to 69 production use cases, removing an estimated 95 person-days of manual effort per month and shifting that time from assembling reports to interpreting them. I won Talcott's ACE Award in 2026 for my work on GEAR.
 
 <div class="project-meta">
   <span class="tech-badge">Python</span>
