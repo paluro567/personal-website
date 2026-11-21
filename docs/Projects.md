@@ -46,6 +46,27 @@ The system persists Pending, Met, and Violated states in SQL Server and records 
 
 ---
 
+### Microsoft Fabric Data Agent Development & Evaluation
+
+Business users wanted to ask questions of enterprise financial data in plain language. For that to be useful, the answers had to reflect the underlying data and the business's agreed definitions — and there had to be a way to show that they did.
+
+I developed Microsoft Fabric data agents over Oracle data migrated into Fabric through Oracle GoldenGate. I wrote the agent instructions and example queries that guide how each agent interprets a business question and retrieves the relevant data.
+
+To measure answer quality, I built evaluation notebooks using `evaluate_data_agent` from the `fabric-data-agent-sdk` library. Each test set is a Pandas DataFrame of questions paired with expected answers drawn from business-approved responses, and the agent is scored against those reference answers. The results showed where accuracy and performance fell short, and whether the fix belonged in the instructions, the example queries, or the data context.
+
+<div class="project-meta">
+  <span class="tech-badge">Microsoft Fabric</span>
+  <span class="tech-badge">Fabric Data Agents</span>
+  <span class="tech-badge">Oracle GoldenGate</span>
+  <span class="tech-badge">Python</span>
+  <span class="tech-badge">Pandas</span>
+  <span class="tech-badge">SQL</span>
+  <span class="tech-badge">fabric-data-agent-sdk</span>
+  <span class="tech-badge">Agent Evaluation</span>
+</div>
+
+---
+
 ### Financial Data Validation & Reconciliation Platform
 
 Downstream reporting depended on data from multiple systems that frequently diverged due to timing differences, schema mismatches, and vendor inconsistencies.
