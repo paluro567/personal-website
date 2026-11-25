@@ -1,180 +1,53 @@
 # Projects
 
-## Talcott Resolution <span class="tenure">2023 – Present</span> { .employer-header }
+## GEAR · Enterprise Reporting Platform
 
-### GEAR — Enterprise Reporting Platform <span class="tenure">ACE Award Winner · 2026</span>
+Investment and actuarial teams relied on recurring SQL extracts, Excel preparation, and manual distribution. I helped automate that work through GEAR, a Python platform that generates formatted Excel reports on demand and on a schedule.
 
-Actuarial and investment reporting ran on manual data extraction, heavy Excel manipulation, and email distribution. It was slow, hard to scale, and exposed to human error and key-person dependency — and some analysis was never produced at all, because there was no capacity to assemble it by hand.
+I refactored the reporting engine to update workbook XML directly so generated reports preserve their Excel template formatting. I built a smoke-test suite covering 67 report configurations and Azure DevOps pipelines that deploy the web application and report workers to Azure Container Apps and Jobs.
 
-I built GEAR (General Email and Reporting Application), a cloud-native platform that generates formatted actuarial XLSX reports on demand and on a schedule. Reports are defined by configuration rather than code: GEAR starts from a template workbook, runs the configured queries against the investment data lake, and writes each result set into its designated sheet with the template's formatting intact.
-
-A FastAPI service in Azure Container Apps exposes HTTP endpoints through ingress and handles orchestration, while Azure Container App Jobs run the heavier generation work as containerized Python processes that produce downloadable XLSX reports. Separating lightweight API orchestration from compute lets reports be generated on demand across environments without long-running batch jobs or permanently allocated compute. The platform also provides Microsoft Entra authentication, secure browser and Teams access, release management through Azure DevOps, and event-driven notifications that alert users when monitored conditions are met.
-
-The configuration-driven design is what let it scale — new report types are onboarded without redesigning the application. The automated report inventory nearly doubled over the past year to 69 production use cases, removing an estimated 95 person-days of manual effort per month and shifting that time from assembling reports to interpreting them. I won Talcott's ACE Award in 2026 for my work on GEAR.
-
-<div class="project-meta">
-  <span class="tech-badge">Python</span>
-  <span class="tech-badge">FastAPI</span>
-  <span class="tech-badge">Azure Container Apps</span>
-  <span class="tech-badge">Azure Container App Jobs</span>
-  <span class="tech-badge">Docker</span>
-  <span class="tech-badge">Microsoft Entra</span>
-  <span class="tech-badge">Azure DevOps</span>
-  <span class="tech-badge">Microsoft Teams</span>
-  <span class="tech-badge">SQL</span>
-  <span class="tech-badge">XLSX Reporting</span>
-</div>
+I delivered 44 automated reporting workflows, saving an estimated 68 person-days per month. The production report job recorded 5,450 successful executions over a 30-day period. I received Talcott’s ACE Award for my work on GEAR.
 
 ---
 
-### GEAR — SLA Tracking & Operational Monitoring
+## TalQL · On-Demand Market Data and Valuation APIs
 
-Scheduled reporting depends on upstream files arriving on time. Daily and monthly delivery schedules, regional holidays, and different time zones made it difficult to distinguish a genuinely late file from one that was not yet due.
-
-I built a configuration-driven SLA monitoring system for GEAR that checks file-processing logs against expected deadlines. The Python service supports daily and monthly business-day schedules, regional holiday calendars, time-zone-aware evaluation, and configurable grace periods. Each file is tracked by its originating SLA period, preserving outstanding obligations across day and month boundaries instead of overwriting them when a new period begins.
-
-The system persists Pending, Met, and Violated states in SQL Server and records notification timestamps to control repeat alerts. Notifications are triggered only for confirmed violations, giving teams a consistent way to identify missed deliveries and investigate delays without manually checking file logs.
-
-<div class="project-meta">
-  <span class="tech-badge">Python</span>
-  <span class="tech-badge">SQL Server</span>
-  <span class="tech-badge">Configuration-Driven Design</span>
-  <span class="tech-badge">Business Calendars</span>
-  <span class="tech-badge">SLA Monitoring</span>
-  <span class="tech-badge">Automated Alerts</span>
-</div>
+I developed FastAPI services that let users trigger market data, base valuation, and scenario NPV workflows on demand. The API starts asynchronous Azure jobs and exposes run status by batch ID, so users can track a run after the initial request returns. The service uses Microsoft Entra ID authentication and role-based access.
 
 ---
 
-### Microsoft Fabric Data Agent Development & Evaluation
+## Project Stellar · Financial Data Pipelines
 
-Business users wanted to ask questions of enterprise financial data in plain language. For that to be useful, the answers had to reflect the underlying data and the business's agreed definitions — and there had to be a way to show that they did.
-
-I developed Microsoft Fabric data agents over Oracle data migrated into Fabric through Oracle GoldenGate. I wrote the agent instructions and example queries that guide how each agent interprets a business question and retrieves the relevant data.
-
-To measure answer quality, I built evaluation notebooks using `evaluate_data_agent` from the `fabric-data-agent-sdk` library. Each test set is a Pandas DataFrame of questions paired with expected answers drawn from business-approved responses, and the agent is scored against those reference answers. The results showed where accuracy and performance fell short, and whether the fix belonged in the instructions, the example queries, or the data context.
-
-<div class="project-meta">
-  <span class="tech-badge">Microsoft Fabric</span>
-  <span class="tech-badge">Fabric Data Agents</span>
-  <span class="tech-badge">Oracle GoldenGate</span>
-  <span class="tech-badge">Python</span>
-  <span class="tech-badge">Pandas</span>
-  <span class="tech-badge">SQL</span>
-  <span class="tech-badge">fabric-data-agent-sdk</span>
-  <span class="tech-badge">Agent Evaluation</span>
-</div>
+I led technical delivery of Microsoft Fabric and PySpark pipelines supporting the Nippon Life reinsurance transaction. The pipelines ingested, validated, and reconciled policy and financial data.
 
 ---
 
-### Financial Data Validation & Reconciliation Platform
+## File Delivery SLA Monitoring
 
-Downstream reporting depended on data from multiple systems that frequently diverged due to timing differences, schema mismatches, and vendor inconsistencies.
-
-I built Python validation pipelines that compare datasets across Oracle, SQL Server, and vendor feeds, normalize schemas, and surface discrepancies before they reach reporting workflows. The system runs automatically and produces actionable outputs, allowing teams to quickly identify and resolve data issues without manual investigation.
-
-<div class="project-meta">
-  <span class="tech-badge">Python</span>
-  <span class="tech-badge">SQL</span>
-  <span class="tech-badge">Oracle</span>
-  <span class="tech-badge">SQL Server</span>
-  <span class="tech-badge">Pandas</span>
-</div>
+I built a Python and SQL system that checks whether daily and monthly files arrive by their deadlines. It applies U.S. and Japanese business calendars, time zones, and grace periods, records outcomes in SQL Server, and alerts teams when files miss their deadlines.
 
 ---
 
-### Metadata-Driven Ingestion Framework
+## Microsoft Fabric Data Agent Evaluation
 
-Adding new data sources previously required writing custom ingestion logic for each format, slowing onboarding and increasing maintenance overhead.
-
-I designed a metadata-driven framework where each data source is defined by configuration rather than code. The system handles XML, JSON, and Excel inputs using shared processing logic, enabling rapid onboarding of new sources while maintaining consistent validation, transformation, and error handling across pipelines.
-
-<div class="project-meta">
-  <span class="tech-badge">Python</span>
-  <span class="tech-badge">Pandas</span>
-  <span class="tech-badge">XML</span>
-  <span class="tech-badge">JSON</span>
-  <span class="tech-badge">Configuration-Driven Design</span>
-</div>
+I evaluated Fabric Data Agent responses against expected answers for Oracle financial data. I authored natural-language questions paired with SQL examples to guide source selection, data type handling, and interpretation of financial terminology.
 
 ---
 
-### Trade & Settlement Logging System
+## Optum · Speech Recognition Data Pipelines
 
-Trade and settlement activity needed to be captured, validated, and persisted in a way downstream processes could depend on — no gaps, no duplicates, with clear auditability.
-
-I built the backend API routes and database logic to log trade activity, applying validation and upstream enrichment at ingestion time. I also added a React interface so the operations team could query and review settlement state without touching the database directly.
-
-<div class="project-meta">
-  <span class="tech-badge">Node.js</span>
-  <span class="tech-badge">React</span>
-  <span class="tech-badge">Oracle</span>
-  <span class="tech-badge">SQL</span>
-</div>
+I built Python pipelines for healthcare audio and metadata and automated batch processing and monitoring with Jenkins. I also developed and evaluated speech-recognition models in Azure Machine Learning, comparing accuracy across experiments.
 
 ---
 
-## Optum <span class="tenure">2020 – 2023</span> { .employer-header }
+## Personal · Trading Signal and Execution System
 
-### Enterprise Data Pipeline Development
-
-Healthcare data arrived from multiple upstream sources in inconsistent formats, with no standardized validation layer before it reached analytics consumers.
-
-I built and maintained ETL pipelines that ingested, transformed, and routed large healthcare datasets across internal systems. I focused on correctness at the transformation layer — enforcing business rules, surfacing upstream data quality issues early, and ensuring downstream analytics workflows received clean, reliable inputs.
-
-<div class="project-meta">
-  <span class="tech-badge">Python</span>
-  <span class="tech-badge">SQL</span>
-  <span class="tech-badge">ETL</span>
-  <span class="tech-badge">Data Validation</span>
-</div>
+I built a Python system that monitors intraday market data, evaluates EMA crossovers and breakout conditions, and submits orders through Alpaca. I built it to understand the engineering involved in taking a trading rule from a market-data signal to an order.
 
 ---
 
-### Kafka Application Logging to Azure Event Hubs & ELK Stack
+## Personal · Market Data Analysis Tools
 
-Application logs were scattered across services with no centralized way to monitor behavior, trace errors, or analyze patterns across systems.
+I built Python scripts for historical stock analysis, intraday screening, and valuation comparisons across watchlists. The tools cover RSI-based signals, P/E screening, and historical price patterns.
 
-I configured a Kafka-based logging pipeline that captured application events and streamed them to Azure Event Hubs. From there, logs were ingested into an ELK stack — Elasticsearch for indexing and storage, Logstash for transformation and enrichment, and Kibana for visualization. I also built Kibana dashboards to surface error rates, latency trends, and service health across environments.
-
-<div class="project-meta">
-  <span class="tech-badge">Kafka</span>
-  <span class="tech-badge">Azure Event Hubs</span>
-  <span class="tech-badge">Elasticsearch</span>
-  <span class="tech-badge">Logstash</span>
-  <span class="tech-badge">Kibana</span>
-  <span class="tech-badge">ELK Stack</span>
-</div>
-
----
-
-## Personal Projects { .employer-header }
-
-### Trading Signal & Execution System
-
-I built a Python system that monitors intraday market data and executes rule-based trades through Alpaca's brokerage API. It pulls a morning briefing from a Discord channel, builds a watchlist, and then monitors each ticker on a configurable candle interval — evaluating EMA crossovers and breakout conditions and submitting market orders with trailing-stop exits. PDT compliance is enforced automatically.
-
-My goal was to understand the practical gap between signal generation and live execution: noisy data, timing constraints, and the difference between what a strategy looks like in backtesting and what it does under real market conditions.
-
-<div class="project-meta">
-  <span class="tech-badge">Python</span>
-  <span class="tech-badge">Alpaca API</span>
-  <span class="tech-badge">yfinance</span>
-  <span class="tech-badge">Alpha Vantage</span>
-  <span class="tech-badge">Discord API</span>
-</div>
-
----
-
-### Market Data Analysis & Research Tools
-
-I wrote a set of personal scripts for analyzing historical stock performance, screening intraday setups, and evaluating valuation metrics across watchlists. They cover time-series pattern analysis, P/E screening, RSI-based momentum signals, and sentiment scoring from news feeds.
-
-[View on GitHub](https://github.com/paluro567/trade-system)
-
-<div class="project-meta">
-  <span class="tech-badge">Python</span>
-  <span class="tech-badge">Pandas</span>
-  <span class="tech-badge">yfinance</span>
-  <span class="tech-badge">Alpha Vantage</span>
-</div>
+[GitHub](https://github.com/paluro567)

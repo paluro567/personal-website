@@ -2,73 +2,43 @@
   <h1 class="hero-name">Peter Luro</h1>
 </div>
 
-<div class="intro-section">
+<div class="profile-section">
   <img src="img/profile.jpeg" alt="Peter Luro" class="profile-photo">
-  <div class="intro-content">
-    <p>
-      I build systems that actually hold up in production: financial data pipelines, reporting workflows, and trading tools that need to run reliably and on time.
-    </p>
-    <p>
-      At Talcott Resolution, I work on data pipelines and reporting systems used by actuarial and hedging teams. A lot of the work is making sure large, messy datasets from XML, JSON, and SQL sources get processed correctly and consistently, and that downstream reports are accurate and delivered when they are expected. I have spent a lot of time dealing with edge cases, fixing data issues, and improving reliability across these workflows.
-    </p>
-    <p>
-      Most of what I build is in Python, with Oracle and SQL Server on the backend and Azure handling compute and orchestration. I have also worked on APIs that trigger processing jobs and generate reports on demand.
-    </p>
-    <p>
-      Outside of work, I have been building trading and market analysis tools. This includes pulling market data, testing strategies, and automating parts of the decision process. It has been a good way to apply what I do professionally to something more open-ended.
-    </p>
+  <div class="profile-intro">
+    <p class="profile-tagline">Software Engineer | Python, SQL &amp; Azure | Investment &amp; Risk Systems</p>
+    <div class="profile-body">
+      <p>
+        I build software for investment, risk, and actuarial teams at Talcott Resolution. My recent work includes FastAPI services for on-demand market data and valuation, and a Python reporting platform that automates recurring investment and actuarial workflows.
+      </p>
+      <p class="profile-actions">
+        <a class="md-button md-button--primary" href="Projects/">View Projects</a>
+        <a class="md-button" href="img/Luro-Resume-2026.pdf">Download Resume</a>
+      </p>
+    </div>
   </div>
 </div>
 
 ---
 
-## Open To
+## Selected work
 
-<div class="role-tags">
-  <span class="role-tag">Market Data Engineer</span>
-  <span class="role-tag">Senior SWE / Backend / Data</span>
-  <span class="role-tag">Quantitative Engineer</span>
-  <span class="role-tag">Trading Systems Engineer</span>
+<div class="highlight-card">
+<strong>GEAR · Investment and Actuarial Reporting</strong>
+Delivered 44 automated reporting workflows, saving an estimated 68 person-days of manual work per month. Built Azure deployment pipelines for the platform and received Talcott’s ACE Award for my work on GEAR.
+</div>
+
+<div class="highlight-card">
+<strong>TalQL · On-Demand Market Data and Valuation</strong>
+Developed FastAPI services that let users trigger market data, base valuation, and scenario NPV workflows on demand and track their runs by batch ID.
+</div>
+
+<div class="highlight-card">
+<strong>Personal Project · Trading Signal and Execution System</strong>
+Built a Python application that ingests intraday market data, evaluates rule-based signals, and submits orders through Alpaca.
 </div>
 
 ---
 
-## Current Focus
+## Open to opportunities
 
-- Building Azure Container App services that give actuaries on-demand XLSX report generation without touching batch infrastructure
-- Configuring Autosys job scheduling for production workflows with structured error handling and dependency chains
-- Designing and implementing file loading strategies into a SQL Server data lake, handling complex source formats and schema variation at ingestion
-- Provisioning Azure resources and pipelines to support nightly hedging batch processes with reliable, environment-aware execution across DEV, QA, PTE, and PROD
-
----
-
-## Work Highlights
-
-Full details on the [Projects](Projects.md) page.
-
-<div class="highlight-card">
-<strong>Financial Data Validation Platform</strong>
-Python pipelines that detect schema drift, stale data, and identifier mismatches across Oracle and SQL Server before they reach downstream risk workflows.
-</div>
-
-<div class="highlight-card">
-<strong>Azure Ingestion Pipelines</strong>
-Containerized jobs with retry logic, structured logging, and environment-aware execution for processing large financial datasets at scale.
-</div>
-
-<div class="highlight-card">
-<strong>Trading Execution System</strong>
-Personal project: ingests intraday market data, evaluates EMA and breakout conditions, and submits orders through Alpaca's API with PDT compliance built in.
-</div>
-
----
-
-## Location
-
-Open to opportunities in:
-
-- Boston
-- Florida
-- Utah
-- Texas
-- Remote
+Based in Avon, Connecticut. Interested in Python quant engineering, investment technology, and backend or data platform roles. Open to opportunities in Connecticut, Boston, New York, and remote.

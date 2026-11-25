@@ -1,5 +1,7 @@
 # Contact
 
+I’m based in Avon, Connecticut. Get in touch about Python engineering, investment technology, or backend and data platform roles.
+
 <div class="contact-list">
 
   <a class="contact-item" href="https://github.com/paluro567" target="_blank">

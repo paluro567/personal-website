@@ -56,6 +56,17 @@
   margin-top: 0.25rem;
 }
 
+.profile-intro .profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.1rem;
+}
+
+.profile-actions .md-button {
+  margin: 0;
+}
+
 .profile-body p:first-child {
   margin-top: 0;
 }
@@ -76,10 +87,9 @@
     gap: 1rem;
   }
 
-  .profile-photo {
-    width: 100%;
-    max-width: 220px;
-    height: auto;
+  .profile-section .profile-photo {
+    width: 160px;
+    height: 160px;
   }
 
   .profile-body {
