@@ -1,0 +1,13 @@
+# deploy.sh runs `git add .`, so anything not listed here gets committed and pushed.
+
+# SSH keys and other credentials
+microsite_key
+microsite_key.pub
+id_rsa*
+id_ed25519*
+*.pem
+*.key
+.env
+
+# macOS
+.DS_Store
